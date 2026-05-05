@@ -184,6 +184,177 @@
     </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odeBlockId>block-1778020001000-scrum01</odeBlockId>
+      <blockName>¿Qué es Scrum?</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odeBlockId>block-1778020001000-scrum01</odeBlockId>
+          <odeIdeviceId>idevice-1778020001001-scrum01</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Scrum</strong> es un marco de trabajo usado en la inmensa mayoría de las empresas tecnológicas para gestionar proyectos. La idea es sencilla pero potente: en lugar de planificar todo el proyecto al detalle al principio (lo cual nunca funciona en software, porque las cosas cambian), se trabaja en <strong>ciclos cortos llamados <em>sprints</em></strong>. En cada sprint, el equipo se compromete a entregar una versión funcional del producto, por pequeña que sea, y aprende del resultado para mejorar en el siguiente.</p>
+<p><strong>eduScrum</strong> es la adaptación de Scrum al aula. Vosotros os organizáis (el "cómo") y el profesor define los objetivos de aprendizaje y los criterios de aceptación (el "qué" y el "cuándo está bien hecho").</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001001-scrum01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Scrum</strong> es un marco de trabajo usado en la inmensa mayoría de las empresas tecnológicas para gestionar proyectos. La idea es sencilla pero potente: en lugar de planificar todo el proyecto al detalle al principio (lo cual nunca funciona en software, porque las cosas cambian), se trabaja en <strong>ciclos cortos llamados <em>sprints</em></strong>. En cada sprint, el equipo se compromete a entregar una versión funcional del producto, por pequeña que sea, y aprende del resultado para mejorar en el siguiente.</p>\n<p><strong>eduScrum</strong> es la adaptación de Scrum al aula. Vosotros os organizáis (el \"cómo\") y el profesor define los objetivos de aprendizaje y los criterios de aceptación (el \"qué\" y el \"cuándo está bien hecho\").</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odeBlockId>block-1778020001002-scrum02</odeBlockId>
+      <blockName>Roles en el equipo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odeBlockId>block-1778020001002-scrum02</odeBlockId>
+          <odeIdeviceId>idevice-1778020001003-scrum02</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Cada equipo está formado por <strong>3-4 personas</strong> y dentro del equipo se reparten estos roles:</p>
+<h4>Product Owner (el profesor)</h4>
+<p>Define <strong>qué hay que construir</strong> y los criterios de aceptación. No forma parte de vuestro equipo, pero está disponible en cada sesión para resolver dudas y revisar el progreso.</p>
+<h4>eduScrum Master (uno de vosotros, rota cada sprint)</h4>
+<p>Es la persona que vela por el proceso del equipo:</p>
+<ul>
+<li>Modera las reuniones (Daily, Planning, Review, Retrospectiva).</li>
+<li>Se asegura de que el tablero esté actualizado.</li>
+<li>Detecta si alguien está bloqueado y ayuda a desbloquearlo.</li>
+<li>Recuerda los plazos y la <em>Definition of Done</em>.</li>
+</ul>
+<p><strong>No es un jefe</strong>, es un facilitador. Y como rota, <strong>todos pasaréis por este rol al menos una vez</strong>.</p>
+<h4>Equipo de desarrollo (todos vosotros, incluido el Scrum Master)</h4>
+<p>Sois <strong>autoorganizados</strong> y <strong>multifuncionales</strong>: nadie tiene asignado "tú haces solo HTML" o "tú solo CSS". Decidís entre vosotros cómo repartir las tareas, qué herramientas usar y a qué ritmo trabajar.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001003-scrum02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Cada equipo está formado por <strong>3-4 personas</strong> y dentro del equipo se reparten estos roles:</p>\n<h4>Product Owner (el profesor)</h4>\n<p>Define <strong>qué hay que construir</strong> y los criterios de aceptación. No forma parte de vuestro equipo, pero está disponible en cada sesión para resolver dudas y revisar el progreso.</p>\n<h4>eduScrum Master (uno de vosotros, rota cada sprint)</h4>\n<p>Es la persona que vela por el proceso del equipo:</p>\n<ul>\n<li>Modera las reuniones (Daily, Planning, Review, Retrospectiva).</li>\n<li>Se asegura de que el tablero esté actualizado.</li>\n<li>Detecta si alguien está bloqueado y ayuda a desbloquearlo.</li>\n<li>Recuerda los plazos y la <em>Definition of Done</em>.</li>\n</ul>\n<p><strong>No es un jefe</strong>, es un facilitador. Y como rota, <strong>todos pasaréis por este rol al menos una vez</strong>.</p>\n<h4>Equipo de desarrollo (todos vosotros, incluido el Scrum Master)</h4>\n<p>Sois <strong>autoorganizados</strong> y <strong>multifuncionales</strong>: nadie tiene asignado \"tú haces solo HTML\" o \"tú solo CSS\". Decidís entre vosotros cómo repartir las tareas, qué herramientas usar y a qué ritmo trabajar.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odeBlockId>block-1778020001004-scrum03</odeBlockId>
+      <blockName>Eventos: las reuniones que tendréis</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odeBlockId>block-1778020001004-scrum03</odeBlockId>
+          <odeIdeviceId>idevice-1778020001005-scrum03</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<h4>Sprint Planning (al inicio de cada sprint, ~15-20 min)</h4>
+<p>El equipo elige del <strong>Product Backlog</strong> las historias de usuario que se compromete a entregar este sprint y las descompone en tareas concretas en el tablero.</p>
+<blockquote><p>Ejemplo: la historia <em>"Como usuario quiero ver 6 cartas con su tipo correcto"</em> se descompone en tareas como: "crear la clase <code>Pokemon</code>", "implementar <code>fetchPokemon(id)</code>", "renderizar la plantilla HTML de la carta", "aplicar clase CSS según el tipo".</p></blockquote>
+<h4>Daily (al inicio de cada sesión, ~5 min)</h4>
+<p>Cada miembro responde brevemente a tres preguntas:</p>
+<ol>
+<li>¿Qué hice en la sesión anterior?</li>
+<li>¿Qué voy a hacer hoy?</li>
+<li>¿Tengo algún bloqueo?</li>
+</ol>
+<p>Es <strong>breve y en pie</strong> (no es momento de resolver problemas, solo de detectarlos).</p>
+<h4>Sprint Review (al final del sprint, ~15 min)</h4>
+<p>Cada equipo <strong>enseña al resto de la clase la app funcionando</strong>. Solo se muestra lo que <strong>funciona de verdad</strong>, no lo que se ha intentado. Recibís feedback del profesor y de los compañeros.</p>
+<h4>Sprint Retrospective (~10 min, tras la review)</h4>
+<p>El equipo se reúne en privado y reflexiona sobre el propio proceso, no sobre el código:</p>
+<ul>
+<li>¿Qué hicimos bien y queremos seguir haciendo?</li>
+<li>¿Qué nos costó y queremos mejorar?</li>
+<li>¿Qué acción concreta vamos a probar el próximo sprint?</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001005-scrum03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4>Sprint Planning (al inicio de cada sprint, ~15-20 min)</h4>\n<p>El equipo elige del <strong>Product Backlog</strong> las historias de usuario que se compromete a entregar este sprint y las descompone en tareas concretas en el tablero.</p>\n<blockquote><p>Ejemplo: la historia <em>\"Como usuario quiero ver 6 cartas con su tipo correcto\"</em> se descompone en tareas como: \"crear la clase <code>Pokemon</code>\", \"implementar <code>fetchPokemon(id)</code>\", \"renderizar la plantilla HTML de la carta\", \"aplicar clase CSS según el tipo\".</p></blockquote>\n<h4>Daily (al inicio de cada sesión, ~5 min)</h4>\n<p>Cada miembro responde brevemente a tres preguntas:</p>\n<ol>\n<li>¿Qué hice en la sesión anterior?</li>\n<li>¿Qué voy a hacer hoy?</li>\n<li>¿Tengo algún bloqueo?</li>\n</ol>\n<p>Es <strong>breve y en pie</strong> (no es momento de resolver problemas, solo de detectarlos).</p>\n<h4>Sprint Review (al final del sprint, ~15 min)</h4>\n<p>Cada equipo <strong>enseña al resto de la clase la app funcionando</strong>. Solo se muestra lo que <strong>funciona de verdad</strong>, no lo que se ha intentado. Recibís feedback del profesor y de los compañeros.</p>\n<h4>Sprint Retrospective (~10 min, tras la review)</h4>\n<p>El equipo se reúne en privado y reflexiona sobre el propio proceso, no sobre el código:</p>\n<ul>\n<li>¿Qué hicimos bien y queremos seguir haciendo?</li>\n<li>¿Qué nos costó y queremos mejorar?</li>\n<li>¿Qué acción concreta vamos a probar el próximo sprint?</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odeBlockId>block-1778020001006-scrum04</odeBlockId>
+      <blockName>Artefactos: las herramientas que usaréis</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odeBlockId>block-1778020001006-scrum04</odeBlockId>
+          <odeIdeviceId>idevice-1778020001007-scrum04</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<h4>Product Backlog</h4>
+<p>Lista priorizada de funcionalidades que debe tener la webapp. El profesor os la entrega como punto de partida, pero podéis proponer añadidos.</p>
+<h4>Sprint Backlog</h4>
+<p>Subconjunto del Product Backlog que vuestro equipo se compromete a completar en el sprint actual, ya descompuesto en tareas.</p>
+<h4>Tablero Kanban</h4>
+<p>Físico (en una pared del aula con post-its) y/o digital (en <strong>GitHub Projects</strong> o <strong>Trello</strong>). Tres columnas mínimas:</p>
+<pre><code>┌─── To Do ───┬─── Doing ───┬─── Done ───┐
+│             │             │            │
+│  Tarea X    │   Tarea Y   │  Tarea Z   │
+│  Tarea A    │             │  Tarea B   │
+│             │             │            │
+└─────────────┴─────────────┴────────────┘</code></pre>
+<p><strong>Regla de oro:</strong> una tarea solo está en "Done" si cumple la <em>Definition of Done</em>.</p>
+<h4>Definition of Done</h4>
+<p>Acuerdo de equipo sobre cuándo una tarea se considera "terminada". Por ejemplo:</p>
+<ul>
+<li>El código compila y se ejecuta sin errores.</li>
+<li>Está commiteado en la rama correspondiente.</li>
+<li>Se ha probado manualmente y funciona.</li>
+<li>Al menos otro miembro del equipo lo ha revisado.</li>
+<li>Está comentado/documentado si era necesario.</li>
+</ul>
+<p>Vosotros vais a definir vuestra propia DoD en el primer sprint.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001007-scrum04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4>Product Backlog</h4>\n<p>Lista priorizada de funcionalidades que debe tener la webapp. El profesor os la entrega como punto de partida, pero podéis proponer añadidos.</p>\n<h4>Sprint Backlog</h4>\n<p>Subconjunto del Product Backlog que vuestro equipo se compromete a completar en el sprint actual, ya descompuesto en tareas.</p>\n<h4>Tablero Kanban</h4>\n<p>Físico (en una pared del aula con post-its) y/o digital (en <strong>GitHub Projects</strong> o <strong>Trello</strong>). Tres columnas mínimas:</p>\n<pre><code>┌─── To Do ───┬─── Doing ───┬─── Done ───┐\n│             │             │            │\n│  Tarea X    │   Tarea Y   │  Tarea Z   │\n│  Tarea A    │             │  Tarea B   │\n│             │             │            │\n└─────────────┴─────────────┴────────────┘</code></pre>\n<p><strong>Regla de oro:</strong> una tarea solo está en \"Done\" si cumple la <em>Definition of Done</em>.</p>\n<h4>Definition of Done</h4>\n<p>Acuerdo de equipo sobre cuándo una tarea se considera \"terminada\". Por ejemplo:</p>\n<ul>\n<li>El código compila y se ejecuta sin errores.</li>\n<li>Está commiteado en la rama correspondiente.</li>\n<li>Se ha probado manualmente y funciona.</li>\n<li>Al menos otro miembro del equipo lo ha revisado.</li>\n<li>Está comentado/documentado si era necesario.</li>\n</ul>\n<p>Vosotros vais a definir vuestra propia DoD en el primer sprint.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
@@ -198,6 +369,446 @@
     </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002000-fases00</odeBlockId>
+      <blockName>Fases generales del proyecto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002000-fases00</odeBlockId>
+          <odeIdeviceId>idevice-1778020002001-fases00</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>
+<h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>
+<p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>
+<p><strong>Cómo trabajar esta fase:</strong></p>
+<ol>
+<li>Primero individualmente, después en equipo.</li>
+<li>Borrador a mano antes que a herramienta (lápiz/papel o pizarra).</li>
+<li>Cuando el modelo esté claro, lo pasáis a digital (draw.io, PlantUML, Mermaid, StarUML…).</li>
+<li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>
+</ol>
+<p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>
+<h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>
+<p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>
+<ul>
+<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, consumo de la PokéAPI, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos reales.</li>
+<li><strong>Sprint 2 — Producto final:</strong> estilos por tipo, lógica shiny, refinamiento visual y pruebas.</li>
+</ul>
+<p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>
+<h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>
+<p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>
+<pre><code>┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
+│      FASE 1         │ →  │       FASE 2        │ →  │       FASE 3        │
+│  Análisis &amp; UML     │    │     Desarrollo      │    │  Presentación &amp;     │
+│  Documentación      │    │  (Sprint 1 + 2)     │    │       Vídeo         │
+│   Infografía        │    │                     │    │                     │
+├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
+│  Sesiones 1-3       │    │   Sesiones 4-7      │    │     Sesión 8        │
+├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
+│  Pensar             │    │  Construir          │    │  Comunicar          │
+└─────────────────────┘    └─────────────────────┘    └─────────────────────┘</code></pre>
+<p>Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica</strong>.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002001-fases00","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>\n<h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>\n<p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>\n<p><strong>Cómo trabajar esta fase:</strong></p>\n<ol>\n<li>Primero individualmente, después en equipo.</li>\n<li>Borrador a mano antes que a herramienta (lápiz/papel o pizarra).</li>\n<li>Cuando el modelo esté claro, lo pasáis a digital (draw.io, PlantUML, Mermaid, StarUML…).</li>\n<li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>\n</ol>\n<p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>\n<h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>\n<p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>\n<ul>\n<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, consumo de la PokéAPI, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos reales.</li>\n<li><strong>Sprint 2 — Producto final:</strong> estilos por tipo, lógica shiny, refinamiento visual y pruebas.</li>\n</ul>\n<p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>\n<h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>\n<p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>\n<pre><code>┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐\n│      FASE 1         │ →  │       FASE 2        │ →  │       FASE 3        │\n│  Análisis &amp; UML     │    │     Desarrollo      │    │  Presentación &amp;     │\n│  Documentación      │    │  (Sprint 1 + 2)     │    │       Vídeo         │\n│   Infografía        │    │                     │    │                     │\n├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤\n│  Sesiones 1-3       │    │   Sesiones 4-7      │    │     Sesión 8        │\n├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤\n│  Pensar             │    │  Construir          │    │  Comunicar          │\n└─────────────────────┘    └─────────────────────┘    └─────────────────────┘</code></pre>\n<p>Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica</strong>.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002002-ses01</odeBlockId>
+      <blockName>Sesión 1 — Kick-off</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002002-ses01</odeBlockId>
+          <odeIdeviceId>idevice-1778020002003-ses01</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> arranque del proyecto.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Entender el reto y los entregables.</li>
+<li>Formar los equipos.</li>
+<li>Asignar el primer eduScrum Master de cada equipo.</li>
+<li>Explorar la PokéAPI.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Presentación del proyecto y resolución de dudas iniciales.</li>
+<li>Formación de equipos y reparto del primer rol de eduScrum Master.</li>
+<li>Exploración guiada de la PokéAPI: probar <code>https://pokeapi.co/api/v2/pokemon/25</code> (Pikachu) en el navegador, identificar los datos que vamos a necesitar.</li>
+<li>Lectura conjunta del Product Backlog inicial.</li>
+<li>Acordar la <strong>Definition of Done</strong> del equipo.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Equipos formados con roles claros.</li>
+<li>Tablero Kanban inicial montado (físico o digital).</li>
+<li>DoD escrita y visible.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002003-ses01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> arranque del proyecto.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Entender el reto y los entregables.</li>\n<li>Formar los equipos.</li>\n<li>Asignar el primer eduScrum Master de cada equipo.</li>\n<li>Explorar la PokéAPI.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Presentación del proyecto y resolución de dudas iniciales.</li>\n<li>Formación de equipos y reparto del primer rol de eduScrum Master.</li>\n<li>Exploración guiada de la PokéAPI: probar <code>https://pokeapi.co/api/v2/pokemon/25</code> (Pikachu) en el navegador, identificar los datos que vamos a necesitar.</li>\n<li>Lectura conjunta del Product Backlog inicial.</li>\n<li>Acordar la <strong>Definition of Done</strong> del equipo.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Equipos formados con roles claros.</li>\n<li>Tablero Kanban inicial montado (físico o digital).</li>\n<li>DoD escrita y visible.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002004-ses02</odeBlockId>
+      <blockName>Sesión 2 — Análisis (I): modelado del dominio</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002004-ses02</odeBlockId>
+          <odeIdeviceId>idevice-1778020002005-ses02</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Modelar el dominio del problema (los Pokémon).</li>
+<li>Practicar la notación UML de diagramas de clases.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily inicial.</li>
+<li><strong>Trabajo individual primero</strong> (15 min): cada uno hace su propio borrador a lápiz/papel del diagrama de clases. ¿Qué es una <code>Pokemon</code>? ¿Qué atributos tiene? ¿Qué métodos? ¿Hay otras clases necesarias (<code>Type</code>, <code>Stat</code>)?</li>
+<li><strong>Puesta en común en equipo</strong> (20 min): se comparan los borradores, se discuten las decisiones (¿<code>Type</code> es atributo o clase aparte? ¿qué relación tiene con <code>Pokemon</code>?).</li>
+<li><strong>Diagrama unificado del equipo</strong> (15 min) en una herramienta digital (draw.io, PlantUML, Mermaid o StarUML).</li>
+</ol>
+<p><strong>Al salir de clase:</strong> cada equipo tiene un borrador de diagrama de clases del dominio.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002005-ses02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Modelar el dominio del problema (los Pokémon).</li>\n<li>Practicar la notación UML de diagramas de clases.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily inicial.</li>\n<li><strong>Trabajo individual primero</strong> (15 min): cada uno hace su propio borrador a lápiz/papel del diagrama de clases. ¿Qué es una <code>Pokemon</code>? ¿Qué atributos tiene? ¿Qué métodos? ¿Hay otras clases necesarias (<code>Type</code>, <code>Stat</code>)?</li>\n<li><strong>Puesta en común en equipo</strong> (20 min): se comparan los borradores, se discuten las decisiones (¿<code>Type</code> es atributo o clase aparte? ¿qué relación tiene con <code>Pokemon</code>?).</li>\n<li><strong>Diagrama unificado del equipo</strong> (15 min) en una herramienta digital (draw.io, PlantUML, Mermaid o StarUML).</li>\n</ol>\n<p><strong>Al salir de clase:</strong> cada equipo tiene un borrador de diagrama de clases del dominio.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002006-ses03</odeBlockId>
+      <blockName>Sesión 3 — Análisis (II): arquitectura y planificación</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002006-ses03</odeBlockId>
+          <odeIdeviceId>idevice-1778020002007-ses03</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Modelar la arquitectura de la webapp (no solo el dominio).</li>
+<li>Planificar el Sprint 1.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li><strong>Diagrama de la webapp</strong>: además de <code>Pokemon</code>, ¿qué otras clases o módulos vais a necesitar? Probablemente algo tipo <code>PokemonService</code> (que habla con la API), <code>CardRenderer</code> (que pinta la carta) y un controlador que orquesta todo. Dibujadlo.</li>
+<li><strong>Sprint Planning del Sprint 1</strong>: revisad el Product Backlog y elegid qué historias entran en el primer sprint. Descomponedlas en tareas y colocadlas en el tablero.</li>
+<li><strong>Fork del repositorio de partida</strong>: cada equipo crea su fork en GitHub y todos los miembros se añaden como colaboradores.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Diagrama UML completo (dominio + arquitectura).</li>
+<li>Sprint Backlog del Sprint 1 cargado en el tablero.</li>
+<li>Repositorio del equipo creado en GitHub.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002007-ses03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Modelar la arquitectura de la webapp (no solo el dominio).</li>\n<li>Planificar el Sprint 1.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li><strong>Diagrama de la webapp</strong>: además de <code>Pokemon</code>, ¿qué otras clases o módulos vais a necesitar? Probablemente algo tipo <code>PokemonService</code> (que habla con la API), <code>CardRenderer</code> (que pinta la carta) y un controlador que orquesta todo. Dibujadlo.</li>\n<li><strong>Sprint Planning del Sprint 1</strong>: revisad el Product Backlog y elegid qué historias entran en el primer sprint. Descomponedlas en tareas y colocadlas en el tablero.</li>\n<li><strong>Fork del repositorio de partida</strong>: cada equipo crea su fork en GitHub y todos los miembros se añaden como colaboradores.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Diagrama UML completo (dominio + arquitectura).</li>\n<li>Sprint Backlog del Sprint 1 cargado en el tablero.</li>\n<li>Repositorio del equipo creado en GitHub.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002008-ses04</odeBlockId>
+      <blockName>Sesión 4 — Sprint 1 (I): maquetado base</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>5</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002008-ses04</odeBlockId>
+          <odeIdeviceId>idevice-1778020002009-ses04</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Construir la estructura HTML de la carta.</li>
+<li>Aplicar estilos CSS base.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo. Posibles tareas:
+<ul>
+<li>Maquetar el HTML semántico de <strong>una</strong> carta con datos <em>hardcodeados</em> (todavía sin API).</li>
+<li>Aplicar CSS base: tipografía, espaciado, layout (Flexbox o Grid).</li>
+<li>Crear la estructura para mostrar 6 cartas en una rejilla.</li>
+</ul></li>
+<li>Cambio de rol de eduScrum Master a mitad del sprint (opcional, según equipo).</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Plantilla de carta visible en el navegador (aunque sin datos reales).</li>
+<li>Commits con el progreso en la rama del sprint.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002009-ses04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Construir la estructura HTML de la carta.</li>\n<li>Aplicar estilos CSS base.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo. Posibles tareas:\n<ul>\n<li>Maquetar el HTML semántico de <strong>una</strong> carta con datos <em>hardcodeados</em> (todavía sin API).</li>\n<li>Aplicar CSS base: tipografía, espaciado, layout (Flexbox o Grid).</li>\n<li>Crear la estructura para mostrar 6 cartas en una rejilla.</li>\n</ul></li>\n<li>Cambio de rol de eduScrum Master a mitad del sprint (opcional, según equipo).</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Plantilla de carta visible en el navegador (aunque sin datos reales).</li>\n<li>Commits con el progreso en la rama del sprint.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002010-ses05</odeBlockId>
+      <blockName>Sesión 5 — Sprint 1 (II): consumo de la API</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>6</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002010-ses05</odeBlockId>
+          <odeIdeviceId>idevice-1778020002011-ses05</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Conectar la app a la PokéAPI.</li>
+<li>Implementar la clase <code>Pokemon</code>.</li>
+<li>Renderizar 6 cartas con datos reales.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Implementar la función que hace <code>fetch</code> a la API (<code>async/await</code>, <code>try/catch</code>).</li>
+<li>Crear la clase <code>Pokemon</code> con su constructor y métodos.</li>
+<li>Hacer 6 peticiones en paralelo con <code>Promise.all</code>.</li>
+<li>Renderizar las 6 cartas con los datos reales.</li>
+</ul></li>
+<li><strong>Sprint Review del Sprint 1</strong> (últimos 15 min): cada equipo enseña a la clase su app funcionando.</li>
+<li><strong>Sprint Retrospective</strong> (10 min): qué ha ido bien, qué mejorar.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>App funcional v1: muestra 6 cartas reales con datos de la API.</li>
+<li>Tablero limpio para el siguiente sprint.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002011-ses05","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Conectar la app a la PokéAPI.</li>\n<li>Implementar la clase <code>Pokemon</code>.</li>\n<li>Renderizar 6 cartas con datos reales.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Implementar la función que hace <code>fetch</code> a la API (<code>async/await</code>, <code>try/catch</code>).</li>\n<li>Crear la clase <code>Pokemon</code> con su constructor y métodos.</li>\n<li>Hacer 6 peticiones en paralelo con <code>Promise.all</code>.</li>\n<li>Renderizar las 6 cartas con los datos reales.</li>\n</ul></li>\n<li><strong>Sprint Review del Sprint 1</strong> (últimos 15 min): cada equipo enseña a la clase su app funcionando.</li>\n<li><strong>Sprint Retrospective</strong> (10 min): qué ha ido bien, qué mejorar.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>App funcional v1: muestra 6 cartas reales con datos de la API.</li>\n<li>Tablero limpio para el siguiente sprint.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002012-ses06</odeBlockId>
+      <blockName>Sesión 6 — Sprint 2 (I): estilos por tipo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>7</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002012-ses06</odeBlockId>
+          <odeIdeviceId>idevice-1778020002013-ses06</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Aplicar estilos diferenciados según el tipo de Pokémon.</li>
+<li>Usar CSS variables y atributos <code>data-*</code>.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li><strong>Sprint Planning del Sprint 2</strong>: nuevas historias en el tablero.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Definir la paleta de colores y aspecto visual para cada tipo (fuego, agua, planta, eléctrico…).</li>
+<li>Implementar la lógica para aplicar la clase CSS correcta según el tipo del Pokémon (atributos <code>data-type</code>).</li>
+<li>Considerar Pokémon con dos tipos: ¿cuál manda? ¿se mezclan?</li>
+</ul></li>
+</ol>
+<p><strong>Al salir de clase:</strong> cartas con estilos distintos según el tipo del Pokémon.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002013-ses06","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Aplicar estilos diferenciados según el tipo de Pokémon.</li>\n<li>Usar CSS variables y atributos <code>data-*</code>.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li><strong>Sprint Planning del Sprint 2</strong>: nuevas historias en el tablero.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Definir la paleta de colores y aspecto visual para cada tipo (fuego, agua, planta, eléctrico…).</li>\n<li>Implementar la lógica para aplicar la clase CSS correcta según el tipo del Pokémon (atributos <code>data-type</code>).</li>\n<li>Considerar Pokémon con dos tipos: ¿cuál manda? ¿se mezclan?</li>\n</ul></li>\n</ol>\n<p><strong>Al salir de clase:</strong> cartas con estilos distintos según el tipo del Pokémon.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002014-ses07</odeBlockId>
+      <blockName>Sesión 7 — Sprint 2 (II): lógica shiny y refinamiento</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>8</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002014-ses07</odeBlockId>
+          <odeIdeviceId>idevice-1778020002015-ses07</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Implementar la mecánica shiny.</li>
+<li>Pulir detalles y testear.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Implementar la probabilidad shiny (~1/256). ¿Cómo lo modelamos? ¿Es un método de la clase <code>Pokemon</code>?</li>
+<li>Diseñar el aspecto visual de una carta shiny (sprite alternativo, brillo, marca dorada…).</li>
+<li>Probar manualmente: forzar la aparición de un shiny para verificar que funciona.</li>
+<li>Documentar las pruebas realizadas en un checklist.</li>
+</ul></li>
+<li><strong>Sprint Review del Sprint 2</strong> (últimos 15 min).</li>
+<li><strong>Sprint Retrospective</strong> (10 min).</li>
+</ol>
+<p><strong>Al salir de clase:</strong> app funcional v2 completa, con estilos por tipo y lógica shiny.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002015-ses07","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Implementar la mecánica shiny.</li>\n<li>Pulir detalles y testear.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Implementar la probabilidad shiny (~1/256). ¿Cómo lo modelamos? ¿Es un método de la clase <code>Pokemon</code>?</li>\n<li>Diseñar el aspecto visual de una carta shiny (sprite alternativo, brillo, marca dorada…).</li>\n<li>Probar manualmente: forzar la aparición de un shiny para verificar que funciona.</li>\n<li>Documentar las pruebas realizadas en un checklist.</li>\n</ul></li>\n<li><strong>Sprint Review del Sprint 2</strong> (últimos 15 min).</li>\n<li><strong>Sprint Retrospective</strong> (10 min).</li>\n</ol>\n<p><strong>Al salir de clase:</strong> app funcional v2 completa, con estilos por tipo y lógica shiny.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odeBlockId>block-1778020002016-ses08</odeBlockId>
+      <blockName>Sesión 8 — Cierre y entrega</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>9</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
+        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
+        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odeBlockId>block-1778020002016-ses08</odeBlockId>
+          <odeIdeviceId>idevice-1778020002017-ses08</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Fase:</strong> cierre del proyecto.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Grabar el vídeo demo.</li>
+<li>Cerrar la documentación.</li>
+<li>Hacer la entrega final.</li>
+<li>Reflexionar sobre el proyecto en su conjunto.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily breve.</li>
+<li><strong>Grabación del vídeo demo</strong> (2-3 min): cada equipo graba la presentación de su app.</li>
+<li><strong>Cierre del README.md</strong>: descripción del proyecto, instrucciones de uso, créditos del equipo, mención al uso de IA si lo ha habido.</li>
+<li><strong>Entrega final</strong> en el aula virtual: enlace al repo, enlace a la infografía, enlace al vídeo.</li>
+<li><strong>Retrospectiva final del proyecto</strong> (15 min): no del sprint, del proyecto entero.</li>
+</ol>
+<p><strong>Al salir de clase:</strong> proyecto entregado y cerrado.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002017-ses08","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> cierre del proyecto.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Grabar el vídeo demo.</li>\n<li>Cerrar la documentación.</li>\n<li>Hacer la entrega final.</li>\n<li>Reflexionar sobre el proyecto en su conjunto.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily breve.</li>\n<li><strong>Grabación del vídeo demo</strong> (2-3 min): cada equipo graba la presentación de su app.</li>\n<li><strong>Cierre del README.md</strong>: descripción del proyecto, instrucciones de uso, créditos del equipo, mención al uso de IA si lo ha habido.</li>\n<li><strong>Entrega final</strong> en el aula virtual: enlace al repo, enlace a la infografía, enlace al vídeo.</li>\n<li><strong>Retrospectiva final del proyecto</strong> (15 min): no del sprint, del proyecto entero.</li>\n</ol>\n<p><strong>Al salir de clase:</strong> proyecto entregado y cerrado.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>

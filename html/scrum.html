@@ -9,6 +9,7 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Situación de Aprendizaje para las asignaturas de Lenguajes de Marcas y Sistemas de Gestión de Información, Entornos de Desarrollo y Programación para el alumnado de 1º en los Ciclos de Formación Profesional Superior de DAW y DAM ">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
 </head>
 <body class="exe-export exe-web-site">
@@ -36,7 +37,114 @@
 <p class="package-subtitle">SdA: Análisis, diseño y desarrollo de WebApp que genera 6 cartas Pokemon con la PokeAPI</p></div>
 <div class="page-header"><h1 class="page-title">Scrum</h1></div>
 </header><div id="page-content-page-1778016856851-qdoj09nlw" class="page-content">
-
+<article id="block-1778020001000-scrum01" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">¿Qué es Scrum?</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020001001-scrum01" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020001001-scrum01&quot;}">
+<div class="exe-text-template">
+<p><strong>Scrum</strong> es un marco de trabajo usado en la inmensa mayoría de las empresas tecnológicas para gestionar proyectos. La idea es sencilla pero potente: en lugar de planificar todo el proyecto al detalle al principio (lo cual nunca funciona en software, porque las cosas cambian), se trabaja en <strong>ciclos cortos llamados <em>sprints</em></strong>. En cada sprint, el equipo se compromete a entregar una versión funcional del producto, por pequeña que sea, y aprende del resultado para mejorar en el siguiente.</p>
+<p><strong>eduScrum</strong> es la adaptación de Scrum al aula. Vosotros os organizáis (el "cómo") y el profesor define los objetivos de aprendizaje y los criterios de aceptación (el "qué" y el "cuándo está bien hecho").</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020001002-scrum02" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Roles en el equipo</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020001003-scrum02" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020001003-scrum02&quot;}">
+<div class="exe-text-template">
+<p>Cada equipo está formado por <strong>3-4 personas</strong> y dentro del equipo se reparten estos roles:</p>
+<h4>Product Owner (el profesor)</h4>
+<p>Define <strong>qué hay que construir</strong> y los criterios de aceptación. No forma parte de vuestro equipo, pero está disponible en cada sesión para resolver dudas y revisar el progreso.</p>
+<h4>eduScrum Master (uno de vosotros, rota cada sprint)</h4>
+<p>Es la persona que vela por el proceso del equipo:</p>
+<ul>
+<li>Modera las reuniones (Daily, Planning, Review, Retrospectiva).</li>
+<li>Se asegura de que el tablero esté actualizado.</li>
+<li>Detecta si alguien está bloqueado y ayuda a desbloquearlo.</li>
+<li>Recuerda los plazos y la <em>Definition of Done</em>.</li>
+</ul>
+<p><strong>No es un jefe</strong>, es un facilitador. Y como rota, <strong>todos pasaréis por este rol al menos una vez</strong>.</p>
+<h4>Equipo de desarrollo (todos vosotros, incluido el Scrum Master)</h4>
+<p>Sois <strong>autoorganizados</strong> y <strong>multifuncionales</strong>: nadie tiene asignado "tú haces solo HTML" o "tú solo CSS". Decidís entre vosotros cómo repartir las tareas, qué herramientas usar y a qué ritmo trabajar.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020001004-scrum03" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Eventos: las reuniones que tendréis</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020001005-scrum03" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020001005-scrum03&quot;}">
+<div class="exe-text-template">
+<h4>Sprint Planning (al inicio de cada sprint, ~15-20 min)</h4>
+<p>El equipo elige del <strong>Product Backlog</strong> las historias de usuario que se compromete a entregar este sprint y las descompone en tareas concretas en el tablero.</p>
+<blockquote><p>Ejemplo: la historia <em>"Como usuario quiero ver 6 cartas con su tipo correcto"</em> se descompone en tareas como: "crear la clase <code>Pokemon</code>", "implementar <code>fetchPokemon(id)</code>", "renderizar la plantilla HTML de la carta", "aplicar clase CSS según el tipo".</p></blockquote>
+<h4>Daily (al inicio de cada sesión, ~5 min)</h4>
+<p>Cada miembro responde brevemente a tres preguntas:</p>
+<ol>
+<li>¿Qué hice en la sesión anterior?</li>
+<li>¿Qué voy a hacer hoy?</li>
+<li>¿Tengo algún bloqueo?</li>
+</ol>
+<p>Es <strong>breve y en pie</strong> (no es momento de resolver problemas, solo de detectarlos).</p>
+<h4>Sprint Review (al final del sprint, ~15 min)</h4>
+<p>Cada equipo <strong>enseña al resto de la clase la app funcionando</strong>. Solo se muestra lo que <strong>funciona de verdad</strong>, no lo que se ha intentado. Recibís feedback del profesor y de los compañeros.</p>
+<h4>Sprint Retrospective (~10 min, tras la review)</h4>
+<p>El equipo se reúne en privado y reflexiona sobre el propio proceso, no sobre el código:</p>
+<ul>
+<li>¿Qué hicimos bien y queremos seguir haciendo?</li>
+<li>¿Qué nos costó y queremos mejorar?</li>
+<li>¿Qué acción concreta vamos a probar el próximo sprint?</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-1778020001006-scrum04" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Artefactos: las herramientas que usaréis</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020001007-scrum04" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020001007-scrum04&quot;}">
+<div class="exe-text-template">
+<h4>Product Backlog</h4>
+<p>Lista priorizada de funcionalidades que debe tener la webapp. El profesor os la entrega como punto de partida, pero podéis proponer añadidos.</p>
+<h4>Sprint Backlog</h4>
+<p>Subconjunto del Product Backlog que vuestro equipo se compromete a completar en el sprint actual, ya descompuesto en tareas.</p>
+<h4>Tablero Kanban</h4>
+<p>Físico (en una pared del aula con post-its) y/o digital (en <strong>GitHub Projects</strong> o <strong>Trello</strong>). Tres columnas mínimas:</p>
+<pre><code>┌─── To Do ───┬─── Doing ───┬─── Done ───┐
+│             │             │            │
+│  Tarea X    │   Tarea Y   │  Tarea Z   │
+│  Tarea A    │             │  Tarea B   │
+│             │             │            │
+└─────────────┴─────────────┴────────────┘</code></pre>
+<p><strong>Regla de oro:</strong> una tarea solo está en "Done" si cumple la <em>Definition of Done</em>.</p>
+<h4>Definition of Done</h4>
+<p>Acuerdo de equipo sobre cuándo una tarea se considera "terminada". Por ejemplo:</p>
+<ul>
+<li>El código compila y se ejecuta sin errores.</li>
+<li>Está commiteado en la rama correspondiente.</li>
+<li>Se ha probado manualmente y funciona.</li>
+<li>Al menos otro miembro del equipo lo ha revisado.</li>
+<li>Está comentado/documentado si era necesario.</li>
+</ul>
+<p>Vosotros vais a definir vuestra propia DoD en el primer sprint.</p>
+</div>
+</div>
+</div>
+</article>
 </div></main><div class="nav-buttons">
 <a href="../index.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
 <a href="../html/sesiones.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>

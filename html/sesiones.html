@@ -9,6 +9,7 @@
 <link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
 <meta name="description" content="Situación de Aprendizaje para las asignaturas de Lenguajes de Marcas y Sistemas de Gestión de Información, Entornos de Desarrollo y Programación para el alumnado de 1º en los Ciclos de Formación Profesional Superior de DAW y DAM ">
 <script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
 <link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
 </head>
 <body class="exe-export exe-web-site">
@@ -36,7 +37,303 @@
 <p class="package-subtitle">SdA: Análisis, diseño y desarrollo de WebApp que genera 6 cartas Pokemon con la PokeAPI</p></div>
 <div class="page-header"><h1 class="page-title">Sesiones</h1></div>
 </header><div id="page-content-page-1778016755499-qpoyz34c1" class="page-content">
-
+<article id="block-1778020002000-fases00" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Fases generales del proyecto</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002001-fases00" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002001-fases00&quot;}">
+<div class="exe-text-template">
+<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>
+<h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>
+<p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>
+<p><strong>Cómo trabajar esta fase:</strong></p>
+<ol>
+<li>Primero individualmente, después en equipo.</li>
+<li>Borrador a mano antes que a herramienta (lápiz/papel o pizarra).</li>
+<li>Cuando el modelo esté claro, lo pasáis a digital (draw.io, PlantUML, Mermaid, StarUML…).</li>
+<li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>
+</ol>
+<p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>
+<h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>
+<p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>
+<ul>
+<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, consumo de la PokéAPI, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos reales.</li>
+<li><strong>Sprint 2 — Producto final:</strong> estilos por tipo, lógica shiny, refinamiento visual y pruebas.</li>
+</ul>
+<p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>
+<h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>
+<p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>
+<pre><code>┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
+│      FASE 1         │ →  │       FASE 2        │ →  │       FASE 3        │
+│  Análisis &amp; UML     │    │     Desarrollo      │    │  Presentación &amp;     │
+│  Documentación      │    │  (Sprint 1 + 2)     │    │       Vídeo         │
+│   Infografía        │    │                     │    │                     │
+├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
+│  Sesiones 1-3       │    │   Sesiones 4-7      │    │     Sesión 8        │
+├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
+│  Pensar             │    │  Construir          │    │  Comunicar          │
+└─────────────────────┘    └─────────────────────┘    └─────────────────────┘</code></pre>
+<p>Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica</strong>.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002002-ses01" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 1 — Kick-off</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002003-ses01" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002003-ses01&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> arranque del proyecto.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Entender el reto y los entregables.</li>
+<li>Formar los equipos.</li>
+<li>Asignar el primer eduScrum Master de cada equipo.</li>
+<li>Explorar la PokéAPI.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Presentación del proyecto y resolución de dudas iniciales.</li>
+<li>Formación de equipos y reparto del primer rol de eduScrum Master.</li>
+<li>Exploración guiada de la PokéAPI: probar <code>https://pokeapi.co/api/v2/pokemon/25</code> (Pikachu) en el navegador, identificar los datos que vamos a necesitar.</li>
+<li>Lectura conjunta del Product Backlog inicial.</li>
+<li>Acordar la <strong>Definition of Done</strong> del equipo.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Equipos formados con roles claros.</li>
+<li>Tablero Kanban inicial montado (físico o digital).</li>
+<li>DoD escrita y visible.</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002004-ses02" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 2 — Análisis (I): modelado del dominio</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002005-ses02" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002005-ses02&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Modelar el dominio del problema (los Pokémon).</li>
+<li>Practicar la notación UML de diagramas de clases.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily inicial.</li>
+<li><strong>Trabajo individual primero</strong> (15 min): cada uno hace su propio borrador a lápiz/papel del diagrama de clases. ¿Qué es una <code>Pokemon</code>? ¿Qué atributos tiene? ¿Qué métodos? ¿Hay otras clases necesarias (<code>Type</code>, <code>Stat</code>)?</li>
+<li><strong>Puesta en común en equipo</strong> (20 min): se comparan los borradores, se discuten las decisiones (¿<code>Type</code> es atributo o clase aparte? ¿qué relación tiene con <code>Pokemon</code>?).</li>
+<li><strong>Diagrama unificado del equipo</strong> (15 min) en una herramienta digital (draw.io, PlantUML, Mermaid o StarUML).</li>
+</ol>
+<p><strong>Al salir de clase:</strong> cada equipo tiene un borrador de diagrama de clases del dominio.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002006-ses03" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 3 — Análisis (II): arquitectura y planificación</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002007-ses03" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002007-ses03&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Modelar la arquitectura de la webapp (no solo el dominio).</li>
+<li>Planificar el Sprint 1.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li><strong>Diagrama de la webapp</strong>: además de <code>Pokemon</code>, ¿qué otras clases o módulos vais a necesitar? Probablemente algo tipo <code>PokemonService</code> (que habla con la API), <code>CardRenderer</code> (que pinta la carta) y un controlador que orquesta todo. Dibujadlo.</li>
+<li><strong>Sprint Planning del Sprint 1</strong>: revisad el Product Backlog y elegid qué historias entran en el primer sprint. Descomponedlas en tareas y colocadlas en el tablero.</li>
+<li><strong>Fork del repositorio de partida</strong>: cada equipo crea su fork en GitHub y todos los miembros se añaden como colaboradores.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Diagrama UML completo (dominio + arquitectura).</li>
+<li>Sprint Backlog del Sprint 1 cargado en el tablero.</li>
+<li>Repositorio del equipo creado en GitHub.</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002008-ses04" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 4 — Sprint 1 (I): maquetado base</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002009-ses04" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002009-ses04&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Construir la estructura HTML de la carta.</li>
+<li>Aplicar estilos CSS base.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo. Posibles tareas:
+<ul>
+<li>Maquetar el HTML semántico de <strong>una</strong> carta con datos <em>hardcodeados</em> (todavía sin API).</li>
+<li>Aplicar CSS base: tipografía, espaciado, layout (Flexbox o Grid).</li>
+<li>Crear la estructura para mostrar 6 cartas en una rejilla.</li>
+</ul></li>
+<li>Cambio de rol de eduScrum Master a mitad del sprint (opcional, según equipo).</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>Plantilla de carta visible en el navegador (aunque sin datos reales).</li>
+<li>Commits con el progreso en la rama del sprint.</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002010-ses05" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 5 — Sprint 1 (II): consumo de la API</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002011-ses05" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002011-ses05&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Conectar la app a la PokéAPI.</li>
+<li>Implementar la clase <code>Pokemon</code>.</li>
+<li>Renderizar 6 cartas con datos reales.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Implementar la función que hace <code>fetch</code> a la API (<code>async/await</code>, <code>try/catch</code>).</li>
+<li>Crear la clase <code>Pokemon</code> con su constructor y métodos.</li>
+<li>Hacer 6 peticiones en paralelo con <code>Promise.all</code>.</li>
+<li>Renderizar las 6 cartas con los datos reales.</li>
+</ul></li>
+<li><strong>Sprint Review del Sprint 1</strong> (últimos 15 min): cada equipo enseña a la clase su app funcionando.</li>
+<li><strong>Sprint Retrospective</strong> (10 min): qué ha ido bien, qué mejorar.</li>
+</ol>
+<p><strong>Al salir de clase:</strong></p>
+<ul>
+<li>App funcional v1: muestra 6 cartas reales con datos de la API.</li>
+<li>Tablero limpio para el siguiente sprint.</li>
+</ul>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002012-ses06" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 6 — Sprint 2 (I): estilos por tipo</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002013-ses06" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002013-ses06&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Aplicar estilos diferenciados según el tipo de Pokémon.</li>
+<li>Usar CSS variables y atributos <code>data-*</code>.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li><strong>Sprint Planning del Sprint 2</strong>: nuevas historias en el tablero.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Definir la paleta de colores y aspecto visual para cada tipo (fuego, agua, planta, eléctrico…).</li>
+<li>Implementar la lógica para aplicar la clase CSS correcta según el tipo del Pokémon (atributos <code>data-type</code>).</li>
+<li>Considerar Pokémon con dos tipos: ¿cuál manda? ¿se mezclan?</li>
+</ul></li>
+</ol>
+<p><strong>Al salir de clase:</strong> cartas con estilos distintos según el tipo del Pokémon.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002014-ses07" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 7 — Sprint 2 (II): lógica shiny y refinamiento</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002015-ses07" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002015-ses07&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Implementar la mecánica shiny.</li>
+<li>Pulir detalles y testear.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily.</li>
+<li>Trabajo en equipo:
+<ul>
+<li>Implementar la probabilidad shiny (~1/256). ¿Cómo lo modelamos? ¿Es un método de la clase <code>Pokemon</code>?</li>
+<li>Diseñar el aspecto visual de una carta shiny (sprite alternativo, brillo, marca dorada…).</li>
+<li>Probar manualmente: forzar la aparición de un shiny para verificar que funciona.</li>
+<li>Documentar las pruebas realizadas en un checklist.</li>
+</ul></li>
+<li><strong>Sprint Review del Sprint 2</strong> (últimos 15 min).</li>
+<li><strong>Sprint Retrospective</strong> (10 min).</li>
+</ol>
+<p><strong>Al salir de clase:</strong> app funcional v2 completa, con estilos por tipo y lógica shiny.</p>
+</div>
+</div>
+</div>
+</article><article id="block-1778020002016-ses08" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Sesión 8 — Cierre y entrega</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778020002017-ses08" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778020002017-ses08&quot;}">
+<div class="exe-text-template">
+<p><strong>Fase:</strong> cierre del proyecto.</p>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Grabar el vídeo demo.</li>
+<li>Cerrar la documentación.</li>
+<li>Hacer la entrega final.</li>
+<li>Reflexionar sobre el proyecto en su conjunto.</li>
+</ul>
+<p><strong>Qué vamos a hacer:</strong></p>
+<ol>
+<li>Daily breve.</li>
+<li><strong>Grabación del vídeo demo</strong> (2-3 min): cada equipo graba la presentación de su app.</li>
+<li><strong>Cierre del README.md</strong>: descripción del proyecto, instrucciones de uso, créditos del equipo, mención al uso de IA si lo ha habido.</li>
+<li><strong>Entrega final</strong> en el aula virtual: enlace al repo, enlace a la infografía, enlace al vídeo.</li>
+<li><strong>Retrospectiva final del proyecto</strong> (15 min): no del sprint, del proyecto entero.</li>
+</ol>
+<p><strong>Al salir de clase:</strong> proyecto entregado y cerrado.</p>
+</div>
+</div>
+</div>
+</article>
 </div></main><div class="nav-buttons">
 <a href="../html/scrum.html" title="Anterior" class="nav-button nav-button-left"><span>Anterior</span></a>
 <a href="../html/recursos.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
