@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-index">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Cartas Pokemon (1º DAW/DAM)</title>
+<link rel="icon" type="image/x-icon" href="libs/favicon.ico">
+<meta name="description" content="Situación de Aprendizaje para las asignaturas de Lenguajes de Marcas y Sistemas de Gestión de Información, Entornos de Desarrollo y Programación para el alumnado de 1º en los Ciclos de Formación Profesional Superior de DAW y DAM ">
+<script>document.querySelector("html").classList.add("js");</script><script src="libs/jquery/jquery.min.js"> </script><script src="libs/common_i18n.js"> </script><script src="libs/common.js"> </script><script src="libs/exe_export.js"> </script><script src="libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+<script src="idevices/text/text.js"></script><link rel="stylesheet" href="idevices/text/text.css">
+<link rel="stylesheet" href="content/css/base.css"><script src="theme/style.js"> </script><link rel="stylesheet" href="theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#ef837a08-fa35-4b6a-8191-28b0c2fcc111" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li class="active"> <a href="index.html" class="active main-node daddy">Cartas Pokemon</a>
+<ul class="other-section">
+<li> <a href="html/scrum.html" class="no-ch">Scrum</a>
+</li>
+<li> <a href="html/sesiones.html" class="no-ch">Sesiones</a>
+</li>
+<li> <a href="html/recursos.html" class="no-ch">Recursos</a>
+</li>
+<li> <a href="html/entregables.html" class="no-ch">Entregables</a>
+</li>
+<li> <a href="html/atribucion-y-descarga.html" class="no-ch">Atribución y Descarga</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><main id="ef837a08-fa35-4b6a-8191-28b0c2fcc111" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Cartas Pokemon (1º DAW/DAM)</p>
+<p class="package-subtitle">SdA: Análisis, diseño y desarrollo de WebApp que genera 6 cartas Pokemon con la PokeAPI</p></div>
+<div class="page-header"><h1 class="page-title">Cartas Pokemon</h1></div>
+</header><div id="page-content-ef837a08-fa35-4b6a-8191-28b0c2fcc111" class="page-content">
+<article id="block-1778016703548-znwu09e3b" class="box">
+<header class="box-head no-icon">
+<h1 class="box-title">Descripción de la actividad</h1>
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1778016703546-lt3qmw3wd" class="idevice_node text" data-idevice-path="idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1778016703546-lt3qmw3wd&quot;}">
+<div class="exe-text-template">
+    <p>¡Bienvenidos a vuestro primer proyecto de desarrollo web! Durante las próximas semanas vais a construir, en equipo, una aplicación web que genera 6 cartas Pokémon aleatorias consumiendo datos en tiempo real de la PokéAPI (https://pokeapi.co), una API pública con información de todos los Pokémon existentes.</p>
+<p><br /></p>
+<h4>¿Qué tendrá que hacer la app?</h4>
+<p><strong>Mostrar 6 cartas Pokémon</strong> generadas aleatoriamente cada vez que se carga (o se pulsa un botón "Generar").<br /><strong></strong></p>
+<p><strong>Dar estilos a cada carta</strong> según el tipo del Pokémon: una carta de tipo fuego no se ve igual que una de agua o una de planta. Cada tipo tendrá su propia paleta de colores, su icono y su personalidad visual.<br /></p>
+<p><strong>Mostrar la información clave de cada Pokémon: </strong>nombre, número de la Pokédex, tipo(s), imagen, estadísticas básicas (HP, ataque, defensa y 1-3 habilidades).</p>
+<p><strong>Implementar la lógica shiny:</strong> existe una probabilidad muy baja (~1/256, como en los juegos originales) de que un Pokémon aparezca en su versión shiny. Cuando esto ocurra, la carta tendrá un aspecto especial (sprite alternativo, efectos visuales, marca distintiva).<br /></p>
+<p><br /></p>
+<h4>¿Por qué este proyecto?<br /></h4>
+<p>Porque es uno solo, pero os va a obligar a usar prácticamente todo lo que estamos viendo en los tres módulos:</p>
+<ol>
+<li>De <strong>Lenguajes de Marcas</strong> vais a usar HTML semántico, CSS y vais a aprender a tratar respuestas en formato JSON.<br /></li>
+<li>De <strong>Programación</strong> vais a aplicar POO (clase Pokemon, métodos, constructores), estructuras de control, manejo de excepciones y peticiones asíncronas.<br /></li>
+<li>De <strong>Entornos de Desarrollo</strong> vais a empezar haciendo el diagrama de clases UML del proyecto antes de programar, vais a usar Git y GitHub en serio (ramas, commits, pull requests) y vais a depurar con las herramientas del IDE VSCode.</li>
+</ol>
+<p>Y todo esto lo vais a hacer trabajando en equipos pequeños que se autoorganizan con una metodología ágil real, la misma que se usa en las empresas de desarrollo: Scrum, en su variante educativa eduScrum.<br /></p>
+<p><br /></p>
+<h4>Punto de partida</h4>
+<p>No empezáis de cero. Utilizaréis este <a href="https://github.com/rsvives/pokecartas">repositorio como base</a> con la estructura del proyecto, algunos archivos preparados y la configuración mínima. Vuestro trabajo es forkearlo, completarlo y hacerlo vuestro.</p>
+</div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<span class="nav-button nav-button-left" aria-hidden="true"><span>Anterior</span></span>
+<a href="html/scrum.html" title="Siguiente" class="nav-button nav-button-right"><span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">Creative Commons: Reconocimiento - compartir igual 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
