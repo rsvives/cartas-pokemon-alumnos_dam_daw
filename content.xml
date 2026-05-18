@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>202605180952046RS8FL</value>
+    <value>20260518201040SGYXP1</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260518095204HP8IMI</value>
+    <value>20260518201040TLF4DK</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -736,6 +736,48 @@
               <key>cssClass</key>
               <value></value>
             </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1779056422368-z48cx6xax</odePageId>
+      <odeBlockId>block-1779122780314-lpulkh50r</odeBlockId>
+      <blockName>Rúbrica</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056422368-z48cx6xax</odePageId>
+          <odeBlockId>block-1779122780314-lpulkh50r</odeBlockId>
+          <odeIdeviceId>idevice-1779122780311-uef1xttk0</odeIdeviceId>
+          <odeIdeviceTypeName>rubric</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="rubric-IDevice"><div class="exe-rubrics-instructions gameQP-instructions"><p>Rúbrica sobre el desarrollo de la aplicación</p></div><div class="rubric"><div class="exe-rubrics-DataGame js-hidden">%7B%22typeGame%22%3A%22Rubric%22%2C%22version%22%3A2%2C%22id%22%3A%22idevice-1779122780311-uef1xttk0%22%2C%22table%22%3A%7B%22title%22%3A%22R%FAbrica%20de%20ejemplo%20%284x4%29%22%2C%22categories%22%3A%5B%22Generar%206%20cartas%20aleatorias%22%2C%22Informaci%F3n%20en%20cartas%22%2C%22Estilos%22%2C%22Git%22%2C%22C%F3digo%20Limpio%22%2C%22Readme.md%22%2C%22Despliegue%22%5D%2C%22scores%22%3A%5B%22Excelente%22%2C%22Parcialmente%20conseguido%22%2C%22Incompleto%22%5D%2C%22descriptions%22%3A%5B%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Se%20generan%206%20cartas%20aleatoriamente%2C%20obteniendo%20sus%20datos%20desde%20la%20PokeAPI%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22No%20se%20generan%20todas%20las%20cartas%20o%20existen%20algunos%20elementos%20que%20han%20sido%20hardcodeados%20sin%20utilizar%20los%20datos%20de%20la%20PokeAPI%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22No%20se%20utiliza%20la%20PokeAPI%20para%20obtener%20los%20datos%20de%20los%20Pokemon.%20Los%20datos%20en%20su%20inmensa%20mayor%EDa%20han%20sido%20hardcodeados%20y%20no%20son%20din%E1micos%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Se%20muestra%20la%20informaci%F3n%20clave%20de%20cada%20Pok%E9mon%3A%20nombre%2C%20n%FAmero%20de%20la%20Pok%E9dex%2C%20tipo%28s%29%2C%20imagen%2C%20estad%EDsticas%20b%E1sicas%20%28HP%2C%20ataque%2C%20defensa%20y%201-3%20habilidades%29%22%7D%2C%7B%22weight%22%3A%221.50%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Las%20cartas%20tienen%20estilo%20de%20carta%20Pokemon%2C%20con%20un%20reborde%20redondeado%2C%20padding%2C%20y%20su%20color%20depende%20del%20tipo%20de%20Pokemon%20que%20se%20genera%20%22%7D%2C%7B%22weight%22%3A%22X%22%2C%22text%22%3A%22Las%20cartas%20tienen%20estilo%20de%20carta%20Pokemon%2C%20pero%20hay%20algunos%20elementos%20mejorables%2C%20%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Commits%20descriptivos%2C%20ramas%20separadas%20para%20cada%20sprint%2C%20se%20usan%20PRs%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22C%F3digo%20autodescriptivo%2C%20con%20comentarios%2C%20bien%20organizado%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Se%20incluye%20un%20readme.md%20que%20recoge%20todo%20lo%20necesario...%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22La%20webapp%20se%20ha%20desplegado%20en%20Github%20Pages%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Se%20ha%20desplegado%20pero%20no%20la%20%FAltima%20versi%F3n%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22No%20se%20ha%20desplegado%22%7D%5D%5D%7D%2C%22title%22%3A%22R%FAbrica%20de%20ejemplo%20%284x4%29%22%2C%22categories%22%3A%5B%22Generar%206%20cartas%20aleatorias%22%2C%22Informaci%F3n%20en%20cartas%22%2C%22Estilos%22%2C%22Git%22%2C%22C%F3digo%20Limpio%22%2C%22Readme.md%22%2C%22Despliegue%22%5D%2C%22scores%22%3A%5B%22Excelente%22%2C%22Parcialmente%20conseguido%22%2C%22Incompleto%22%5D%2C%22descriptions%22%3A%5B%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Se%20generan%206%20cartas%20aleatoriamente%2C%20obteniendo%20sus%20datos%20desde%20la%20PokeAPI%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22No%20se%20generan%20todas%20las%20cartas%20o%20existen%20algunos%20elementos%20que%20han%20sido%20hardcodeados%20sin%20utilizar%20los%20datos%20de%20la%20PokeAPI%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22No%20se%20utiliza%20la%20PokeAPI%20para%20obtener%20los%20datos%20de%20los%20Pokemon.%20Los%20datos%20en%20su%20inmensa%20mayor%EDa%20han%20sido%20hardcodeados%20y%20no%20son%20din%E1micos%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Se%20muestra%20la%20informaci%F3n%20clave%20de%20cada%20Pok%E9mon%3A%20nombre%2C%20n%FAmero%20de%20la%20Pok%E9dex%2C%20tipo%28s%29%2C%20imagen%2C%20estad%EDsticas%20b%E1sicas%20%28HP%2C%20ataque%2C%20defensa%20y%201-3%20habilidades%29%22%7D%2C%7B%22weight%22%3A%221.50%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Las%20cartas%20tienen%20estilo%20de%20carta%20Pokemon%2C%20con%20un%20reborde%20redondeado%2C%20padding%2C%20y%20su%20color%20depende%20del%20tipo%20de%20Pokemon%20que%20se%20genera%20%22%7D%2C%7B%22weight%22%3A%22X%22%2C%22text%22%3A%22Las%20cartas%20tienen%20estilo%20de%20carta%20Pokemon%2C%20pero%20hay%20algunos%20elementos%20mejorables%2C%20%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Commits%20descriptivos%2C%20ramas%20separadas%20para%20cada%20sprint%2C%20se%20usan%20PRs%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22C%F3digo%20autodescriptivo%2C%20con%20comentarios%2C%20bien%20organizado%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Se%20incluye%20un%20readme.md%20que%20recoge%20todo%20lo%20necesario...%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22...%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22...%22%7D%5D%2C%5B%7B%22weight%22%3A%222%22%2C%22text%22%3A%22La%20webapp%20se%20ha%20desplegado%20en%20Github%20Pages%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Se%20ha%20desplegado%20pero%20no%20la%20%FAltima%20versi%F3n%22%7D%2C%7B%22weight%22%3A%220%22%2C%22text%22%3A%22No%20se%20ha%20desplegado%22%7D%5D%5D%2C%22instructions%22%3A%22%3Cp%3ER%FAbrica%20sobre%20el%20desarrollo%20de%20la%20aplicaci%F3n%3C/p%3E%22%2C%22visible-info%22%3Atrue%2C%22i18n%22%3A%7B%22rubric%22%3A%22R%FAbrica%22%2C%22activity%22%3A%22Actividad%22%2C%22name%22%3A%22Nombre%22%2C%22date%22%3A%22Fecha%22%2C%22score%22%3A%22Puntuaci%F3n%22%2C%22notes%22%3A%22Notas%22%2C%22download%22%3A%22Descargar%22%2C%22msgDelete%22%3A%22%BFSeguro%20que%20desea%20borrar%20todos%20los%20campos%20del%20formulario%3F%22%2C%22reset%22%3A%22Reiniciar%22%2C%22print%22%3A%22Imprimir%22%2C%22apply%22%3A%22Aplicar%22%2C%22newWindow%22%3A%22Ventana%20nueva%22%2C%22msgEndGameScore%22%3A%22Completa%20la%20r%FAbrica%20antes%20de%20guardar%20tu%20puntuaci%F3n.%22%2C%22msgScoreScorm%22%3A%22La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20%20de%20un%20paquete%20SCORM.%22%2C%22msgOnlySaveScore%22%3A%22%A1Solo%20puede%20guardar%20la%20puntuaci%F3n%20una%20vez%21%22%2C%22msgYouScore%22%3A%22Su%20puntuaci%F3n%22%2C%22msgOnlySaveAuto%22%3A%22Tu%20puntuaci%F3n%20se%20guardar%E1%20despu%E9s%20de%20cada%20cambio.%20Solo%20puedes%20completarla%20una%20vez.%22%2C%22msgSaveAuto%22%3A%22Tu%20puntuaci%F3n%20se%20guardar%E1%20autom%E1ticamente%20despu%E9s%20de%20cada%20cambio.%22%2C%22msgSeveralScore%22%3A%22Puede%20guardar%20la%20puntuaci%F3n%20tantas%20veces%20como%20quiera%22%2C%22msgYouLastScore%22%3A%22La%20%FAltima%20puntuaci%F3n%20guardada%20es%22%2C%22msgActityComply%22%3A%22Ya%20ha%20realizado%20esta%20actividad.%22%2C%22msgPlaySeveralTimes%22%3A%22Puede%20realizar%20esta%20actividad%20cuantas%20veces%20quiera%22%2C%22msgScore%22%3A%22Puntuaci%F3n%22%2C%22msgWeight%22%3A%22Peso%22%7D%2C%22isScorm%22%3A0%2C%22textButtonScorm%22%3A%22Guardar%20la%20puntuaci%F3n%22%2C%22repeatActivity%22%3Atrue%2C%22weighted%22%3A100%7D</div><ul class="exe-rubrics-strings"><li class="rubric">Rúbrica</li><li class="activity">Actividad</li><li class="name">Nombre</li><li class="date">Fecha</li><li class="score">Puntuación</li><li class="notes">Notas</li><li class="download">Descargar</li><li class="msgDelete">¿Seguro que desea borrar todos los campos del formulario?</li><li class="reset">Reiniciar</li><li class="print">Imprimir</li><li class="apply">Aplicar</li><li class="newWindow">Ventana nueva</li><li class="msgEndGameScore">Completa la rúbrica antes de guardar tu puntuación.</li><li class="msgScoreScorm">La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.</li><li class="msgOnlySaveScore">¡Solo puede guardar la puntuación una vez!</li><li class="msgYouScore">Su puntuación</li><li class="msgOnlySaveAuto">Tu puntuación se guardará después de cada cambio. Solo puedes completarla una vez.</li><li class="msgSaveAuto">Tu puntuación se guardará automáticamente después de cada cambio.</li><li class="msgSeveralScore">Puede guardar la puntuación tantas veces como quiera</li><li class="msgYouLastScore">La última puntuación guardada es</li><li class="msgActityComply">Ya ha realizado esta actividad.</li><li class="msgPlaySeveralTimes">Puede realizar esta actividad cuantas veces quiera</li><li class="msgScore">Puntuación</li><li class="msgWeight">Peso</li></ul></div><div class="exe-rubrics-richtext-data sr-av"><span class="exe-rubrics-instructions-data">%3Cp%3ER%FAbrica%20sobre%20el%20desarrollo%20de%20la%20aplicaci%F3n%3C/p%3E</span><span class="exe-rubrics-text-after-data"></span></div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
