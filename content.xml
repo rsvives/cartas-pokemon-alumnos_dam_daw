@@ -10,11 +10,11 @@
 <odeResources>
   <odeResource>
     <key>odeId</key>
-    <value>20260505234936RJ7WEH</value>
+    <value>202605180952046RS8FL</value>
   </odeResource>
   <odeResource>
     <key>odeVersionId</key>
-    <value>20260505234936Y68PVX</value>
+    <value>20260518095204HP8IMI</value>
   </odeResource>
   <odeResource>
     <key>exe_version</key>
@@ -60,7 +60,7 @@
   </odeProperty>
   <odeProperty>
     <key>pp_modified</key>
-    <value>1778016545745</value>
+    <value>1779048548921</value>
   </odeProperty>
   <odeProperty>
     <key>pp_addExeLink</key>
@@ -93,11 +93,31 @@
 </odeProperties>
 <odeNavStructures>
 <odeNavStructure>
-  <odePageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odePageId>
+  <odePageId>page-mpa7klqx-k2k2v3raq</odePageId>
   <odeParentPageId></odeParentPageId>
   <pageName>Cartas Pokemon</pageName>
   <odeNavStructureOrder>0</odeNavStructureOrder>
   <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Cartas Pokemon</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titlePage</key>
       <value>Cartas Pokemon</value>
@@ -109,7 +129,7 @@
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odePageId>
+      <odePageId>page-mpa7klqx-k2k2v3raq</odePageId>
       <odeBlockId>block-1778016703548-znwu09e3b</odeBlockId>
       <blockName>Descripción de la actividad</blockName>
       <iconName></iconName>
@@ -138,13 +158,19 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odePageId>
+          <odePageId>page-mpa7klqx-k2k2v3raq</odePageId>
           <odeBlockId>block-1778016703548-znwu09e3b</odeBlockId>
           <odeIdeviceId>idevice-1778016703546-lt3qmw3wd</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
-    <p>¡Bienvenidos a vuestro primer proyecto de desarrollo web! Durante las próximas semanas vais a construir, en equipo, una aplicación web que genera 6 cartas Pokémon aleatorias consumiendo datos en tiempo real de la PokéAPI (https://pokeapi.co), una API pública con información de todos los Pokémon existentes.</p>
+    <p>¡Bienvenidos a vuestro <strong>primer</strong> <strong>proyecto de desarrollo web!</strong> Durante las próximas semanas vais a construir, en equipo, una <strong>aplicación web que genera 6 cartas Pokémon </strong>aleatorias consumiendo datos en tiempo real de la PokéAPI (https://pokeapi.co), una API pública con información de todos los Pokémon existentes.</p>
 <p><br /></p>
+<h4>¿En qué consiste? </h4>
+<p>El proyecto se hará <strong>en grupos de 3-4 alumnos</strong> utilizando la metodología Scrum y constará de <strong>3 fases</strong> con un entregable en cada fase:</p>
+<p><strong>1) Fase de análisis:</strong> Donde se realizará un <strong>diagrama de clases </strong>y la entrega será una <strong>infografía</strong> con dicho diagrama</p>
+<p><strong>2) Fase de desarrollo: </strong>Donde se realizará la programación de la <strong>aplicación con HTML, CSS y JS </strong>o Java. El entregable es la propia aplicación</p>
+<p><strong>3) Fase de comunicación:</strong> Donde se expondrá la aplicación y se presentará en público. El entregable de esta parte es un <strong>video utilizando dicha aplicación.</strong></p>
+<p> </p>
 <h4>¿Qué tendrá que hacer la app?</h4>
 <p><strong>Mostrar 6 cartas Pokémon</strong> generadas aleatoriamente cada vez que se carga (o se pulsa un botón "Generar").<br /><strong></strong></p>
 <p><strong>Dar estilos a cada carta</strong> según el tipo del Pokémon: una carta de tipo fuego no se ve igual que una de agua o una de planta. Cada tipo tendrá su propia paleta de colores, su icono y su personalidad visual.<br /></p>
@@ -163,7 +189,465 @@
 <h4>Punto de partida</h4>
 <p>No empezáis de cero. Utilizaréis este <a href="https://github.com/rsvives/pokecartas">repositorio como base</a> con la estructura del proyecto, algunos archivos preparados y la configuración mínima. Vuestro trabajo es forkearlo, completarlo y hacerlo vuestro.</p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778016703546-lt3qmw3wd","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>¡Bienvenidos a vuestro primer proyecto de desarrollo web! Durante las próximas semanas vais a construir, en equipo, una aplicación web que genera 6 cartas Pokémon aleatorias consumiendo datos en tiempo real de la PokéAPI (https://pokeapi.co), una API pública con información de todos los Pokémon existentes.</p>\n<p><br /></p>\n<h4>¿Qué tendrá que hacer la app?</h4>\n<p><strong>Mostrar 6 cartas Pokémon</strong> generadas aleatoriamente cada vez que se carga (o se pulsa un botón \"Generar\").<br /><strong></strong></p>\n<p><strong>Dar estilos a cada carta</strong> según el tipo del Pokémon: una carta de tipo fuego no se ve igual que una de agua o una de planta. Cada tipo tendrá su propia paleta de colores, su icono y su personalidad visual.<br /></p>\n<p><strong>Mostrar la información clave de cada Pokémon: </strong>nombre, número de la Pokédex, tipo(s), imagen, estadísticas básicas (HP, ataque, defensa y 1-3 habilidades).</p>\n<p><strong>Implementar la lógica shiny:</strong> existe una probabilidad muy baja (~1/256, como en los juegos originales) de que un Pokémon aparezca en su versión shiny. Cuando esto ocurra, la carta tendrá un aspecto especial (sprite alternativo, efectos visuales, marca distintiva).<br /></p>\n<p><br /></p>\n<h4>¿Por qué este proyecto?<br /></h4>\n<p>Porque es uno solo, pero os va a obligar a usar prácticamente todo lo que estamos viendo en los tres módulos:</p>\n<ol>\n<li>De <strong>Lenguajes de Marcas</strong> vais a usar HTML semántico, CSS y vais a aprender a tratar respuestas en formato JSON.<br /></li>\n<li>De <strong>Programación</strong> vais a aplicar POO (clase Pokemon, métodos, constructores), estructuras de control, manejo de excepciones y peticiones asíncronas.<br /></li>\n<li>De <strong>Entornos de Desarrollo</strong> vais a empezar haciendo el diagrama de clases UML del proyecto antes de programar, vais a usar Git y GitHub en serio (ramas, commits, pull requests) y vais a depurar con las herramientas del IDE VSCode.</li>\n</ol>\n<p>Y todo esto lo vais a hacer trabajando en equipos pequeños que se autoorganizan con una metodología ágil real, la misma que se usa en las empresas de desarrollo: Scrum, en su variante educativa eduScrum.<br /></p>\n<p><br /></p>\n<h4>Punto de partida</h4>\n<p>No empezáis de cero. Utilizaréis este <a href=\"https://github.com/rsvives/pokecartas\">repositorio como base</a> con la estructura del proyecto, algunos archivos preparados y la configuración mínima. Vuestro trabajo es forkearlo, completarlo y hacerlo vuestro.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778016703546-lt3qmw3wd","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>¡Bienvenidos a vuestro <strong>primer</strong> <strong>proyecto de desarrollo web!</strong> Durante las próximas semanas vais a construir, en equipo, una <strong>aplicación web que genera 6 cartas Pokémon </strong>aleatorias consumiendo datos en tiempo real de la PokéAPI (https://pokeapi.co), una API pública con información de todos los Pokémon existentes.</p>\n<p><br /></p>\n<h4>¿En qué consiste? </h4>\n<p>El proyecto se hará <strong>en grupos de 3-4 alumnos</strong> utilizando la metodología Scrum y constará de <strong>3 fases</strong> con un entregable en cada fase:</p>\n<p><strong>1) Fase de análisis:</strong> Donde se realizará un <strong>diagrama de clases </strong>y la entrega será una <strong>infografía</strong> con dicho diagrama</p>\n<p><strong>2) Fase de desarrollo: </strong>Donde se realizará la programación de la <strong>aplicación con HTML, CSS y JS </strong>o Java. El entregable es la propia aplicación</p>\n<p><strong>3) Fase de comunicación:</strong> Donde se expondrá la aplicación y se presentará en público. El entregable de esta parte es un <strong>video utilizando dicha aplicación.</strong></p>\n<p> </p>\n<h4>¿Qué tendrá que hacer la app?</h4>\n<p><strong>Mostrar 6 cartas Pokémon</strong> generadas aleatoriamente cada vez que se carga (o se pulsa un botón \"Generar\").<br /><strong></strong></p>\n<p><strong>Dar estilos a cada carta</strong> según el tipo del Pokémon: una carta de tipo fuego no se ve igual que una de agua o una de planta. Cada tipo tendrá su propia paleta de colores, su icono y su personalidad visual.<br /></p>\n<p><strong>Mostrar la información clave de cada Pokémon: </strong>nombre, número de la Pokédex, tipo(s), imagen, estadísticas básicas (HP, ataque, defensa y 1-3 habilidades).</p>\n<p><strong>Implementar la lógica shiny:</strong> existe una probabilidad muy baja (~1/256, como en los juegos originales) de que un Pokémon aparezca en su versión shiny. Cuando esto ocurra, la carta tendrá un aspecto especial (sprite alternativo, efectos visuales, marca distintiva).<br /></p>\n<p><br /></p>\n<h4>¿Por qué este proyecto?<br /></h4>\n<p>Porque es uno solo, pero os va a obligar a usar prácticamente todo lo que estamos viendo en los tres módulos:</p>\n<ol>\n<li>De <strong>Lenguajes de Marcas</strong> vais a usar HTML semántico, CSS y vais a aprender a tratar respuestas en formato JSON.<br /></li>\n<li>De <strong>Programación</strong> vais a aplicar POO (clase Pokemon, métodos, constructores), estructuras de control, manejo de excepciones y peticiones asíncronas.<br /></li>\n<li>De <strong>Entornos de Desarrollo</strong> vais a empezar haciendo el diagrama de clases UML del proyecto antes de programar, vais a usar Git y GitHub en serio (ramas, commits, pull requests) y vais a depurar con las herramientas del IDE VSCode.</li>\n</ol>\n<p>Y todo esto lo vais a hacer trabajando en equipos pequeños que se autoorganizan con una metodología ágil real, la misma que se usa en las empresas de desarrollo: Scrum, en su variante educativa eduScrum.<br /></p>\n<p><br /></p>\n<h4>Punto de partida</h4>\n<p>No empezáis de cero. Utilizaréis este <a href=\"https://github.com/rsvives/pokecartas\">repositorio como base</a> con la estructura del proyecto, algunos archivos preparados y la configuración mínima. Vuestro trabajo es forkearlo, completarlo y hacerlo vuestro.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+  <odeParentPageId>page-mpa7klqx-k2k2v3raq</odeParentPageId>
+  <pageName>Instrucciones</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Instrucciones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Entregables</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Instrucciones</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+      <odeBlockId>block-1778020004000-ent00</odeBlockId>
+      <blockName>Resumen de los entregables</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+          <odeBlockId>block-1778020004000-ent00</odeBlockId>
+          <odeIdeviceId>idevice-1778020004001-ent00</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Al final del proyecto, cada equipo debe entregar <strong>tres productos</strong>:</p>
+<ol>
+<li><strong>Infografía interactiva</strong> de la fase de análisis.</li>
+<li><strong>WebApp</strong> en un repositorio de GitHub con link público.</li>
+<li><strong>Vídeo demo</strong> de 2-3 minutos.</li>
+</ol>
+<p>La entrega formal se hace en el aula virtual con los enlaces a los tres productos.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004001-ent00","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Al final del proyecto, cada equipo debe entregar <strong>tres productos</strong>:</p>\n<ol>\n<li><strong>Infografía interactiva</strong> de la fase de análisis.</li>\n<li><strong>WebApp</strong> en un repositorio de GitHub con link público.</li>\n<li><strong>Vídeo demo</strong> de 2-3 minutos.</li>\n</ol>\n<p>La entrega formal se hace en el aula virtual con los enlaces a los tres productos.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+      <odeBlockId>block-1778020004008-ent04</odeBlockId>
+      <blockName>Criterios de aceptación mínimos del proyecto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+          <odeBlockId>block-1778020004008-ent04</odeBlockId>
+          <odeIdeviceId>idevice-1778020004009-ent04</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Para considerar el proyecto entregado:</p>
+<ul>
+<li>La app muestra 6 cartas Pokémon con datos reales de la PokéAPI.</li>
+<li>Cada carta tiene estilos diferenciados según el tipo del Pokémon.</li>
+<li>La lógica shiny está implementada y se puede demostrar.</li>
+<li>El código está en GitHub con commits significativos y al menos una rama por sprint.</li>
+<li>Hay un <code>README.md</code> completo.</li>
+<li>Se han entregado los <strong>tres productos</strong>: webapp, infografía y vídeo.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004009-ent04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para considerar el proyecto entregado:</p>\n<ul>\n<li>La app muestra 6 cartas Pokémon con datos reales de la PokéAPI.</li>\n<li>Cada carta tiene estilos diferenciados según el tipo del Pokémon.</li>\n<li>La lógica shiny está implementada y se puede demostrar.</li>\n<li>El código está en GitHub con commits significativos y al menos una rama por sprint.</li>\n<li>Hay un <code>README.md</code> completo.</li>\n<li>Se han entregado los <strong>tres productos</strong>: webapp, infografía y vídeo.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+      <odeBlockId>block-1778020004010-ent05</odeBlockId>
+      <blockName>Ampliaciones opcionales</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr9-avrvvp1m7</odePageId>
+          <odeBlockId>block-1778020004010-ent05</odeBlockId>
+          <odeIdeviceId>idevice-1778020004011-ent05</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Para quien acabe antes y quiera más:</p>
+<ul>
+<li>Desplegar la app en <strong>GitHub Pages</strong>.</li>
+<li>Persistir las cartas favoritas en <code>localStorage</code>.</li>
+<li>Añadir un <strong>botón de "regenerar"</strong> con animaciones.</li>
+<li>Implementar <strong>animaciones CSS</strong> para la aparición de shiny (brillos, partículas).</li>
+<li>Añadir <strong>efectos de sonido</strong> (cuidado con la accesibilidad: que se puedan desactivar).</li>
+<li>Internacionalizar la app (ES / EN).</li>
+<li>Implementar la lógica del proyecto <strong>también en Java</strong> como ejercicio paralelo (consumo de la API con <code>HttpClient</code>, parseo con Gson o Jackson).</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004011-ent05","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Para quien acabe antes y quiera más:</p>\n<ul>\n<li>Desplegar la app en <strong>GitHub Pages</strong>.</li>\n<li>Persistir las cartas favoritas en <code>localStorage</code>.</li>\n<li>Añadir un <strong>botón de \"regenerar\"</strong> con animaciones.</li>\n<li>Implementar <strong>animaciones CSS</strong> para la aparición de shiny (brillos, partículas).</li>\n<li>Añadir <strong>efectos de sonido</strong> (cuidado con la accesibilidad: que se puedan desactivar).</li>\n<li>Internacionalizar la app (ES / EN).</li>\n<li>Implementar la lógica del proyecto <strong>también en Java</strong> como ejercicio paralelo (consumo de la API con <code>HttpClient</code>, parseo con Gson o Jackson).</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+  <odeParentPageId>page-mpa7klr9-avrvvp1m7</odeParentPageId>
+  <pageName>Fase 1: Análisis</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Fase 1: Análisis</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Fase 1: Análisis</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+      <odeBlockId>block-1778020004002-ent01</odeBlockId>
+      <blockName>1. Infografía interactiva (fase de análisis)</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+          <odeBlockId>block-1778020004002-ent01</odeBlockId>
+          <odeIdeviceId>idevice-1778020004003-ent01</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Qué es:</strong> una infografía digital que explica el modelado del problema. Sirve para demostrar que <strong>antes de programar habéis pensado</strong>.</p>
+<p><strong>Debe incluir:</strong></p>
+<ul>
+<li>El <strong>diagrama de clases:</strong> la clase <code>Pokemon</code> y la clase  <code>Carta</code> .<br /></li>
+<li>Las <strong>decisiones de diseño</strong> clave: ¿cómo modeláis la probabilidad shiny?</li>
+<li>Algún <strong>elemento interactivo </strong>(video, enlaces, animaciones ...)<strong>.</strong><strong></strong></li>
+</ul>
+<p><strong>Obligatorio:</strong></p>
+<ul>
+<li>Nombre completo</li>
+<li>Nombre del centro<br /></li>
+<li>Curso</li>
+<li>Materia: (Lenguajes de Marcas)</li>
+<li>Profesor </li>
+<li>Fecha</li>
+</ul>
+<p><strong>Herramientas sugeridas:</strong> Genially, Canva, o un HTML estático con tooltips si os animáis.</p>
+<p><strong>Formato de entrega:</strong> enlace público a la infografía.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004003-ent01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Qué es:</strong> una infografía digital que explica el modelado del problema. Sirve para demostrar que <strong>antes de programar habéis pensado</strong>.</p>\n<p><strong>Debe incluir:</strong></p>\n<ul>\n<li>El <strong>diagrama de clases:</strong> la clase <code>Pokemon</code> y la clase  <code>Carta</code> .<br /></li>\n<li>Las <strong>decisiones de diseño</strong> clave: ¿cómo modeláis la probabilidad shiny?</li>\n<li>Algún <strong>elemento interactivo </strong>(video, enlaces, animaciones ...)<strong>.</strong><strong></strong></li>\n</ul>\n<p><strong>Obligatorio:</strong></p>\n<ul>\n<li>Nombre completo</li>\n<li>Nombre del centro<br /></li>\n<li>Curso</li>\n<li>Materia: (Lenguajes de Marcas)</li>\n<li>Profesor </li>\n<li>Fecha</li>\n</ul>\n<p><strong>Herramientas sugeridas:</strong> Genially, Canva, o un HTML estático con tooltips si os animáis.</p>\n<p><strong>Formato de entrega:</strong> enlace público a la infografía.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+      <odeBlockId>block-1779055811157-qjkki1311</odeBlockId>
+      <blockName>Diagramas UML: Comprueba lo que sabes</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+          <odeBlockId>block-1779055811157-qjkki1311</odeBlockId>
+          <odeIdeviceId>idevice-1779055811155-9vohfbvi0</odeIdeviceId>
+          <odeIdeviceTypeName>relate</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="relaciona-IDevice"><div class="relaciona-instructions gameQP-instructions"><p>Relaciona cada diagrama con su nombre.  ¿Sabes identificar el tipo de diagrama que se pide en este apartado?</p></div><div class="relaciona-DataGame js-hidden">{"typeGame":"Relaciona","author":"","randomCards":true,"instructions":"<p>Relaciona cada diagrama con su nombre.  ¿Sabes identificar el tipo de diagrama que se pide en este apartado?</p>","showMinimize":false,"itinerary":{"showClue":false,"clueGame":"","percentageClue":40,"showCodeAccess":false,"codeAccess":"","messageCodeAccess":""},"cardsGame":[{"url":"{{context_path}}/content/resources/diagrama_casos_uso.png","x":0.5558324353448276,"y":0.7161673553719008,"author":"","alt":"","audio":"","color":"#000000","backcolor":"#ffffff","eText":"","urlBk":"","xBk":0,"yBk":0,"authorBk":"","altBk":"","audioBk":"","colorBk":"#000000","backcolorBk":"#ffffff","eTextBk":"Diagrama%20de%20casos%20de%20uso"},{"url":"{{context_path}}/content/resources/diagrama_secuencia.png","x":0,"y":0,"author":"","alt":"","audio":"","color":"#000000","backcolor":"#ffffff","eText":"","urlBk":"","xBk":0,"yBk":0,"authorBk":"","altBk":"","audioBk":"","colorBk":"#000000","backcolorBk":"#ffffff","eTextBk":"Diagrama%20de%20secuencia"},{"url":"{{context_path}}/content/resources/diagrama_clases.png","x":0,"y":0,"author":"","alt":"","audio":"","color":"#000000","backcolor":"#ffffff","eText":"","urlBk":"","xBk":0,"yBk":0,"authorBk":"","altBk":"","audioBk":"","colorBk":"#000000","backcolorBk":"#ffffff","eTextBk":"Diagrama%20de%20clases"}],"isScorm":0,"textButtonScorm":"Guardar la puntuación","repeatActivity":true,"weighted":100,"textAfter":"","version":2,"percentajeCards":100,"type":0,"showSolution":true,"timeShowSolution":3,"time":3,"evaluation":false,"evaluationID":"eab5d3d3-f353-4070-b36d-df8e7693f8e3","id":"idevice-1779055811155-9vohfbvi0","msgs":{"msgSubmit":"Enviar","msgClue":"¡Genial! La pista es:","msgCodeAccess":"Código de acceso","msgPlayStart":"Pulsa aquí para jugar","msgScore":"Puntuación","msgErrors":"Errores","msgHits":"Aciertos","msgMinimize":"Minimizar","msgMaximize":"Maximizar","msgFullScreen":"Pantalla Completa","msgExitFullScreen":"Salir del modo pantalla completa","msgNoImage":"Pregunta sin imágenes","msgEndGameScore":"Comience la partida antes de guardar la puntuación.","msgScoreScorm":"La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.","msgOnlySaveScore":"¡Solo puede guardar la puntuación una vez!","msgOnlySave":"Solo puede guardar una vez","msgInformation":"Información","msgYouScore":"Su puntuación","msgAuthor":"Autoría","msgOnlySaveAuto":"Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.","msgSaveAuto":"Su puntuación se guardará automáticamente después de cada pregunta.","msgSeveralScore":"Puede guardar la puntuación tantas veces como quiera","msgYouLastScore":"La última puntuación guardada es","msgActityComply":"Ya ha realizado esta actividad.","msgPlaySeveralTimes":"Puede realizar esta actividad cuantas veces quiera","msgClose":"Cerrar","msgAudio":"Audio","msgNumQuestions":"Número de tarjetas","msgTryAgain":"Necesitas al menos %s% de respuestas correctas para obtener la información. Inténtalo de nuevo.","msgEndGameM":"Has completado el juego. Tu puntuación es %s.","msgUncompletedActivity":"Actividad no completada","msgSuccessfulActivity":"Actividad superada. Puntuación: %s","msgUnsuccessfulActivity":"Actividad no superada. Puntuación: %s","msgTypeGame":"Relaciona","msgCheck":"Comprobar","msgRestart":"Reiniciar"}}</div><div class="game-evaluation-ids js-hidden" data-id="idevice-1779055811155-9vohfbvi0" data-evaluationb="false" data-evaluationid="eab5d3d3-f353-4070-b36d-df8e7693f8e3"></div><a href="{{context_path}}/content/resources/diagrama_casos_uso.png" class="js-hidden relaciona-LinkImages">0</a><a href="{{context_path}}/content/resources/diagrama_secuencia.png" class="js-hidden relaciona-LinkImages">1</a><a href="{{context_path}}/content/resources/diagrama_clases.png" class="js-hidden relaciona-LinkImages">2</a><div class="relaciona-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+      <odeBlockId>block-1779057419598-cigjs0meg</odeBlockId>
+      <blockName>Diagramas UML 2: Comprueba lo que sabes</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+          <odeBlockId>block-1779057419598-cigjs0meg</odeBlockId>
+          <odeIdeviceId>idevice-1779057419596-w9bj9oi1v</odeIdeviceId>
+          <odeIdeviceTypeName>hidden-image</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="hiddenimage-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1779057419596-w9bj9oi1v" data-evaluationb="false" data-evaluationid="eab5d3d3-f353-4070-b36d-df8e7693f8e3"></div><div class="hiddenimage-instructions HIP-instructions"><p>Revela la imagen oculta y elige la respuesta correcta.</p></div><div class="hiddenimage-version js-hidden">1</div><div class="hiddenimage-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%DA%FB%F6%F6%F7%FC%DB%FF%F3%F5%F7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%C0%F7%E4%F7%FE%F3%B7%A0%A2%FE%F3%B7%A0%A2%FB%FF%F3%F5%F7%FC%B7%A0%A2%FD%F1%E7%FE%E6%F3%B7%A0%A2%EB%B7%A0%A2%F7%FE%FB%F5%F7%B7%A0%A2%FE%F3%B7%A0%A2%E0%F7%E1%E2%E7%F7%E1%E6%F3%B7%A0%A2%F1%FD%E0%E0%F7%F1%E6%F3%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%C0%F7%E4%F7%FE%F3%B2%FE%F3%B2%FB%FF%F3%F5%F7%FC%B2%FD%F1%E7%FE%E6%F3%B2%EB%B2%F7%FE%FB%F5%F7%B2%FE%F3%B2%E0%F7%E1%E2%E7%F7%E1%E6%F3%B2%F1%FD%E0%E0%F7%F1%E6%F3%BC%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E0%F7%E4%F7%F3%FE%C6%FB%FF%F7%B0%A8%B0%A3%B0%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%F3%E1%E1%F7%E6%A8%BD%BD%F1%AB%F4%A6%A3%A5%F6%A3%BF%F7%A7%A1%F6%BF%A1%A5%F3%A4%BF%F7%F1%F1%F1%BF%F4%A4%AA%A6%F4%A7%F0%A4%F7%F1%A2%A0%BC%E2%FC%F5%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%DE%FD%E1%B2%F6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F6%F7%B2%F1%FE%F3%E1%F7%E1%B2%E1%FD%FC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%C7%DF%DE%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%C1%C3%DE%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%DA%C6%DF%DE%B0%BE%B0%DC%FB%FC%F5%E7%FC%F3%B2%F6%F7%B2%FE%F3%E1%B2%F3%FC%E6%F7%E0%FB%FD%E0%F7%E1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%E6%FB%FF%F7%B0%A8%A1%A2%BE%B0%E0%FD%E5%E1%B0%A8%A1%BE%B0%F1%FD%FE%E7%FF%FC%E1%B0%A8%A1%BE%B0%F3%E6%E6%F7%FF%E2%E6%E1%B0%A8%A6%EF%BE%E9%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%F3%E1%E1%F7%E6%A8%BD%BD%A2%A5%A0%A0%F1%A3%F7%A7%BF%A0%A4%AB%A7%BF%A2%F0%F0%A6%BF%F0%A6%F3%AB%BF%A4%F3%F0%AB%F3%F7%A1%A3%F6%A3%A4%F1%BC%E2%FC%F5%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%DE%FD%E1%B2%F6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F6%F7%B2%F1%F3%E1%FD%E1%B2%F6%F7%B2%E7%E1%FD%B2%E1%FD%FC%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F6%F7%B2%F1%FD%FF%E2%FD%E0%E6%F3%FF%FB%F7%FC%E6%FD%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F7%E1%E6%E0%E7%F1%E6%E7%E0%F3%FE%F7%E1%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%E1%F7%F1%E7%F7%FC%F1%FB%F3%FE%F7%E1%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%E6%E0%F3%E1%F1%F7%FC%F6%F7%FC%E6%F3%FE%F7%E1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%E6%FB%FF%F7%B0%A8%A1%A2%BE%B0%E0%FD%E5%E1%B0%A8%A1%BE%B0%F1%FD%FE%E7%FF%FC%E1%B0%A8%A1%BE%B0%F3%E6%E6%F7%FF%E2%E6%E1%B0%A8%A6%EF%BE%E9%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%F3%E1%E1%F7%E6%A8%BD%BD%AB%F4%F6%A1%F4%A3%F3%F4%BF%A3%F3%AB%A5%BF%A2%A3%A6%F0%BF%F7%F0%A5%A0%BF%F6%A2%F3%F4%A5%AB%AB%A5%A4%AB%AB%F1%BC%E2%FC%F5%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%D7%FE%B2%FD%E0%F6%F7%FC%B2%F6%F7%B2%FE%F3%E1%B2%F3%F1%F1%FB%FD%FC%F7%E1%B2%E3%E7%F7%B2%FD%F1%E7%E0%E0%F7%FC%B2%E4%FB%F7%FC%F7%FC%B2%F6%F3%F6%FD%E1%B2%E2%FD%E0%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%E1%F7%F1%E7%F7%FC%F1%FB%F3%FE%F7%E1%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F6%F7%B2%F1%FE%F3%E1%F7%E1%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F7%E1%E6%E0%E7%F1%E6%E7%E0%F3%FE%F7%E1%B0%BE%B0%D6%FB%F3%F5%E0%F3%FF%F3%E1%B2%F6%F7%B2%F1%FD%FF%E2%FD%E0%E6%F3%FF%FB%F7%FC%E6%FD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%E6%FB%FF%F7%B0%A8%A1%A2%BE%B0%E0%FD%E5%E1%B0%A8%A1%BE%B0%F1%FD%FE%E7%FF%FC%E1%B0%A8%A1%BE%B0%F3%E6%E6%F7%FF%E2%E6%E1%B0%A8%A6%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%D5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A3%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%F7%F3%F0%A7%F6%A1%F6%A1%BF%F4%A1%A7%A1%BF%A6%A2%A5%A2%BF%F0%A1%A4%F6%BF%F6%F4%AA%F7%A5%A4%AB%A1%F4%AA%F7%A1%B0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%A5%AB%A2%A7%A5%A6%A3%AB%A7%AB%A4%BF%E5%AB%F0%F8%AB%FD%FB%A3%E4%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F7%FF%E2%F7%E8%F3%E0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D7%FC%E4%FB%F3%E0%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B03%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%E2%FB%E1%E6%F3%B2%F7%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F7%FF%E2%F7%E8%F3%E0%B2%FD%E6%E0%F3%B2%E2%F3%E0%E6%FB%F6%F3%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B03%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B2%E3%E7%F7%B2%F7%E1%E6%F3%F0%F3%B2%F0%E7%E1%F1%F3%FC%F6%FD%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F8%E7%F5%F3%E0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%D7%E0%E0%FD%E0%F7%E1%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%D3%F1%FB%F7%E0%E6%FD%E1%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C2%F7%E1%FD%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%D8%E7%F7%F5%FD%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C2%F3%FC%E6%F3%FE%FE%F3%B2%D1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C1%F3%FE%FB%E0%B2%F6%F7%FE%B2%FF%FD%F6%FD%B2%E2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%DCh%FF%F7%E0%FD%B2%F6%F7%B2%E2%E0%F7%F5%E7%FC%E6%F3%E1%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%C2%E0%F7%F5%E7%FC%E6%F3%B2%E1%FB%FC%B2%FB%FFs%F5%F7%FC%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B03%D0%FB%F7%FC%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B03%D1%FD%FF%E2%FE%F7%E6%F3%F6%F3%E1%B2%FE%F3%E1%B2%E2%E0%F7%F5%E7%FC%E6%F3%E1%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%FC%FD%B2%E1%F7%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E2%FD%E0%E3%E7%F7%B2%F7%E1%E6%F3%B2%E2s%F5%FB%FC%F3%B2%FC%FD%B2%F4%FD%E0%FF%F3%B2%E2%F3%E0%E6%F7%B2%B2%F6%F7%B2%E7%FC%B2%E2%F3%E3%E7%F7%E6%F7%B2%C1%D1%DD%C0%DF%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C2%E0%F7%F5%E7%FC%E6%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B03%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E7%FC%F3%B2%E4%F7%E8%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%DB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FD%E0%7F%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B2%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F8%E7%F5%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F3%E7%E6%FD%FFs%E6%FB%F1%F3%FF%F7%FC%E6%F7%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E6%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%F1%FD%FF%FD%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2h%FE%E6%FB%FF%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%F5%E7%F3%E0%F6%F3%F6%F3%B2%F7%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%F3%B2%FA%F3%B2%E0%F7%F3%FE%FB%E8%F3%F6%FD%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%C2%E7%F7%F6%F7%B2%E0%F7%F3%FE%FB%E8%F3%E0%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B2%F1%E7%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%D1%F7%E0%E0%F3%E0%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%DD%E2%F1%FBa%FC%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F7%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B2%E3%E7%F7%B2%E1%F7%E0s%B2%FF%E7%EB%B2h%E6%FB%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%D1%F3%E0%F5%F3%FC%F6%FD%BC%B2%D7%E1%E2%F7%E0%F7%BE%B2%E2%FD%E0%B2%F4%F3%E4%FD%E0%BC%BC%BC%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%E2%E7%FC%E6%FD%E1%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%DB%FC%FB%F1%FB%F3%B2%F7%FE%B2%F8%E7%F7%F5%FD%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%F3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%D1%F3%E0%F6%D1%FE%FB%F1%F9%B0%A8%B0%DA%F3%E8%B2%F1%FE%FB%F1%B2%F7%FC%B2%E7%FC%F3%B2%E6%F3%E0%F8%F7%E6%F3%BC%B2%DB%FC%E6%F7%FC%E6%FD%E1%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%D5%F3%FF%F7%DD%E4%F7%E0%B0%A8%B0%DA%F3%E1%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%FD%B2%F7%FE%B2%F8%E7%F7%F5%FD%BC%B2%C6%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%F7%E1%B2%B7%E1%BC%B0%BE%B0%FF%E1%F5%F3%E6%E6%F7%FF%E2%E6%E1%A2%B0%A8%B0%DC%FD%B2%E3%E7%F7%F6%F3%FC%B2%FFs%E1%B2%FB%FC%E6%F7%FC%E6%FD%E1%BC%B2%C2%FD%E0%B2%F4%F3%E4%FD%E0%BE%B2%E0%F7%E1%E2%FD%FC%F6%F7%B2%F3%B2%FE%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B0%BE%B0%FF%E1%F5%D7%FC%F6%C6%FB%FF%F7%B0%A8%B0%C6%FB%F7%FF%E2%FD%B2%F3%F5%FD%E6%F3%F6%FD%BC%B2%A2%B2%E2%E7%FC%E6%FD%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%DB%FF%F3%F5%F7%FC%B2%FD%F1%E7%FE%E6%F3%B0%EF%EF</div><a href="{{context_path}}/content/resources/diagrama_clases.png" class="js-hidden hiddenimage-LinkImages">0</a><a href="{{context_path}}/content/resources/diagrama_casos_uso.png" class="js-hidden hiddenimage-LinkImages">1</a><a href="{{context_path}}/content/resources/diagrama_secuencia.png" class="js-hidden hiddenimage-LinkImages">2</a><div class="hiddenimage-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+      <odeBlockId>block-1779056471952-uj5jez0sk</odeBlockId>
+      <blockName>Evaluación: Rúbrica</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056357145-ppvynxyzg</odePageId>
+          <odeBlockId>block-1779056471952-uj5jez0sk</odeBlockId>
+          <odeIdeviceId>idevice-1779056471951-sgt1wlq09</odeIdeviceId>
+          <odeIdeviceTypeName>rubric</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="rubric-IDevice"><div class="exe-rubrics-instructions gameQP-instructions"><p>Esta es la rúbrica que se va a aplicar para la corrección del entregable de esta fase</p></div><div class="rubric"><div class="exe-rubrics-DataGame js-hidden">%7B%22typeGame%22%3A%22Rubric%22%2C%22version%22%3A2%2C%22id%22%3A%22idevice-1779056471951-sgt1wlq09%22%2C%22table%22%3A%7B%22title%22%3A%22R%FAbrica%20para%20evaluar%20una%20infograf%EDa%22%2C%22categories%22%3A%5B%22Patr%F3n%20organizativo%22%2C%22Dise%F1o%22%2C%22Contenido%22%2C%22Elementos%20visuales%22%2C%22Correcci%F3n%20ling%FC%EDstica%22%5D%2C%22scores%22%3A%5B%224%20Excelente%22%2C%223%20Satisfactorio%22%2C%222%20Mejorable%22%2C%221%20Insuficiente%22%5D%2C%22descriptions%22%3A%5B%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Est%E1n%20presentes%20todos%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20y%20cr%E9ditos%29%2C%20existe%20un%20equilibrio%20perfecto%20entre%20el%20texto%20y%20la%20imagen.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Est%E1n%20presentes%20todos%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20y%20cr%E9ditos%29%2C%20la%20informaci%F3n%20visual%20y%20textual%20est%E1n%20bastante%20bien%20%20equilibradas.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Falta%20alguno%20de%20los%20elementos%20caracter%EDsticos%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20o%20cr%E9ditos%29%20y/o%20no%20existe%20un%20buen%20equilibrio%20entre%20la%20informaci%F3n%20visual%20y%20%20textual.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Solo%20presenta%20uno%20o%20dos%20de%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20o%20cr%E9ditos%29%20y/o%20la%20informaci%F3n%20visual%20y%20textual%20no%20est%E1%20equilibrada.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20muy%20atractiva%2C%20la%20combinaci%F3n%20de%20colores%20es%20muy%20arm%F3nica%20y%20la%20tipograf%EDa%20empleada%20es%20legible%20y%20muy%20apropiada.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20bastante%20atractiva%2C%20la%20combinaci%F3n%20de%20colores%20es%20adecuada%20y%20la%20tipograf%EDa%20empleada%20es%20legible%20y%20apropiada.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20poco%20atractiva%2C%20los%20colores%20no%20se%20combinan%20de%20una%20manera%20demasiado%20arm%F3nica%20y/o%20la%20tipograf%EDa%20no%20es%20la%20m%E1s%20apropiada.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20visualmente%20nada%20atractiva%2C%20los%20colores%20no%20se%20combinan%20de%20manera%20arm%F3nica%20y/o%20la%20tipograf%EDa%20empleada%20es%20inapropiada%20y%20poco%20legible.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20aparecen%20recogidos%20con%20mucha%20claridad%20%20todos%20y%20cada%20uno%20de%20los%20conceptos%20e%20ideas%20%20claves%20del%20tema.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20%20aparecen%20recogidas%20con%20bastante%20claridad%20todas%20o%20la%20mayor%20parte%20de%20las%20ideas%20claves%20del%20tema.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20no%20aparecen%20recogidas%20todas%20las%20ideas%20claves%20del%20tema%20pero%20s%ED%20las%20m%E1s%20relevantes.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20no%20se%20reflejan%20la%20mayor%20parte%20de%20las%20ideas%20fundamentales%20del%20tema.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Todas%20las%20im%E1genes%20empleadas%20tienen%20licencia%20CC%2C%20poseen%20unas%20dimensiones%20perfectas%20y%20apoyan%20con%20total%20claridad%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Todas%20las%20im%E1genes%20empleadas%20tienen%20una%20licencia%20CC%2C%20poseen%20unas%20dimensiones%20adecuadas%20y%20apoyan%20con%20claridad%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22No%20todas%20las%20im%E1genes%20empleadas%20tienen%20licencia%20CC.%20Adem%E1s%2C%20alguna%20de%20ellas%20no%20posee%20las%20dimensiones%20adecuadas%20y/o%20no%20apoya%20de%20una%20manera%20clara%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22La%20mayor%20parte%20de%20las%20im%E1genes%20no%20tienen%20licencia%20CC%2C%20no%20poseen%20unas%20dimensiones%20adecuadas%20y%20no%20se%20adec%FAan%20al%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22No%20se%20aprecian%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20ni%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Aparecen%20uno%20o%20dos%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Aparecen%20tres%20o%20cuatro%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Aparecen%20cinco%20o%20m%E1s%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%5D%5D%7D%2C%22title%22%3A%22R%FAbrica%20para%20evaluar%20una%20infograf%EDa%22%2C%22categories%22%3A%5B%22Patr%F3n%20organizativo%22%2C%22Dise%F1o%22%2C%22Contenido%22%2C%22Elementos%20visuales%22%2C%22Correcci%F3n%20ling%FC%EDstica%22%5D%2C%22scores%22%3A%5B%224%20Excelente%22%2C%223%20Satisfactorio%22%2C%222%20Mejorable%22%2C%221%20Insuficiente%22%5D%2C%22descriptions%22%3A%5B%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Est%E1n%20presentes%20todos%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20y%20cr%E9ditos%29%2C%20existe%20un%20equilibrio%20perfecto%20entre%20el%20texto%20y%20la%20imagen.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Est%E1n%20presentes%20todos%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20y%20cr%E9ditos%29%2C%20la%20informaci%F3n%20visual%20y%20textual%20est%E1n%20bastante%20bien%20%20equilibradas.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Falta%20alguno%20de%20los%20elementos%20caracter%EDsticos%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20o%20cr%E9ditos%29%20y/o%20no%20existe%20un%20buen%20equilibrio%20entre%20la%20informaci%F3n%20visual%20y%20%20textual.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Solo%20presenta%20uno%20o%20dos%20de%20los%20elementos%20propios%20de%20una%20infograf%EDa%20%28t%EDtulo%2C%20cuerpo%2C%20fuentes%20o%20cr%E9ditos%29%20y/o%20la%20informaci%F3n%20visual%20y%20textual%20no%20est%E1%20equilibrada.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20muy%20atractiva%2C%20la%20combinaci%F3n%20de%20colores%20es%20muy%20arm%F3nica%20y%20la%20tipograf%EDa%20empleada%20es%20legible%20y%20muy%20apropiada.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20bastante%20atractiva%2C%20la%20combinaci%F3n%20de%20colores%20es%20adecuada%20y%20la%20tipograf%EDa%20empleada%20es%20legible%20y%20apropiada.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20manera%20visualmente%20poco%20atractiva%2C%20los%20colores%20no%20se%20combinan%20de%20una%20manera%20demasiado%20arm%F3nica%20y/o%20la%20tipograf%EDa%20no%20es%20la%20m%E1s%20apropiada.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22La%20informaci%F3n%20est%E1%20distribuida%20de%20una%20visualmente%20nada%20atractiva%2C%20los%20colores%20no%20se%20combinan%20de%20manera%20arm%F3nica%20y/o%20la%20tipograf%EDa%20empleada%20es%20inapropiada%20y%20poco%20legible.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20aparecen%20recogidos%20con%20mucha%20claridad%20%20todos%20y%20cada%20uno%20de%20los%20conceptos%20e%20ideas%20%20claves%20del%20tema.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20%20aparecen%20recogidas%20con%20bastante%20claridad%20todas%20o%20la%20mayor%20parte%20de%20las%20ideas%20claves%20del%20tema.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20no%20aparecen%20recogidas%20todas%20las%20ideas%20claves%20del%20tema%20pero%20s%ED%20las%20m%E1s%20relevantes.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22En%20la%20infograf%EDa%20no%20se%20reflejan%20la%20mayor%20parte%20de%20las%20ideas%20fundamentales%20del%20tema.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22Todas%20las%20im%E1genes%20empleadas%20tienen%20licencia%20CC%2C%20poseen%20unas%20dimensiones%20perfectas%20y%20apoyan%20con%20total%20claridad%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Todas%20las%20im%E1genes%20empleadas%20tienen%20una%20licencia%20CC%2C%20poseen%20unas%20dimensiones%20adecuadas%20y%20apoyan%20con%20claridad%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22No%20todas%20las%20im%E1genes%20empleadas%20tienen%20licencia%20CC.%20Adem%E1s%2C%20alguna%20de%20ellas%20no%20posee%20las%20dimensiones%20adecuadas%20y/o%20no%20apoya%20de%20una%20manera%20clara%20el%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22La%20mayor%20parte%20de%20las%20im%E1genes%20no%20tienen%20licencia%20CC%2C%20no%20poseen%20unas%20dimensiones%20adecuadas%20y%20no%20se%20adec%FAan%20al%20mensaje%20que%20se%20quiere%20transmitir.%22%7D%5D%2C%5B%7B%22weight%22%3A%224%22%2C%22text%22%3A%22No%20se%20aprecian%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20ni%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%223%22%2C%22text%22%3A%22Aparecen%20uno%20o%20dos%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%222%22%2C%22text%22%3A%22Aparecen%20tres%20o%20cuatro%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%2C%7B%22weight%22%3A%221%22%2C%22text%22%3A%22Aparecen%20cinco%20o%20m%E1s%20errores%20ortogr%E1ficos%2C%20morfosint%E1cticos%20o%20de%20puntuaci%F3n.%22%7D%5D%5D%2C%22instructions%22%3A%22%3Cp%3EEsta%20es%20la%20r%FAbrica%20que%20se%20va%20a%20aplicar%20para%20la%20correcci%F3n%20del%20entregable%20de%20esta%20fase%3C/p%3E%22%2C%22visible-info%22%3Afalse%2C%22author%22%3A%22CEDEC%22%2C%22author-url%22%3A%22http%3A//cedec.intef.es/%22%2C%22license%22%3A%22CC-BY-SA%22%2C%22i18n%22%3A%7B%22rubric%22%3A%22R%FAbrica%22%2C%22activity%22%3A%22Actividad%22%2C%22name%22%3A%22Nombre%22%2C%22date%22%3A%22Fecha%22%2C%22score%22%3A%22Puntuaci%F3n%22%2C%22notes%22%3A%22Notas%22%2C%22download%22%3A%22Descargar%22%2C%22msgDelete%22%3A%22%BFSeguro%20que%20desea%20borrar%20todos%20los%20campos%20del%20formulario%3F%22%2C%22reset%22%3A%22Reiniciar%22%2C%22print%22%3A%22Imprimir%22%2C%22apply%22%3A%22Aplicar%22%2C%22newWindow%22%3A%22Ventana%20nueva%22%2C%22msgEndGameScore%22%3A%22Completa%20la%20r%FAbrica%20antes%20de%20guardar%20tu%20puntuaci%F3n.%22%2C%22msgScoreScorm%22%3A%22La%20puntuaci%F3n%20no%20se%20puede%20guardar%20porque%20esta%20p%E1gina%20no%20forma%20parte%20%20de%20un%20paquete%20SCORM.%22%2C%22msgOnlySaveScore%22%3A%22%A1Solo%20puede%20guardar%20la%20puntuaci%F3n%20una%20vez%21%22%2C%22msgYouScore%22%3A%22Su%20puntuaci%F3n%22%2C%22msgOnlySaveAuto%22%3A%22Tu%20puntuaci%F3n%20se%20guardar%E1%20despu%E9s%20de%20cada%20cambio.%20Solo%20puedes%20completarla%20una%20vez.%22%2C%22msgSaveAuto%22%3A%22Tu%20puntuaci%F3n%20se%20guardar%E1%20autom%E1ticamente%20despu%E9s%20de%20cada%20cambio.%22%2C%22msgSeveralScore%22%3A%22Puede%20guardar%20la%20puntuaci%F3n%20tantas%20veces%20como%20quiera%22%2C%22msgYouLastScore%22%3A%22La%20%FAltima%20puntuaci%F3n%20guardada%20es%22%2C%22msgActityComply%22%3A%22Ya%20ha%20realizado%20esta%20actividad.%22%2C%22msgPlaySeveralTimes%22%3A%22Puede%20realizar%20esta%20actividad%20cuantas%20veces%20quiera%22%2C%22msgScore%22%3A%22Puntuaci%F3n%22%2C%22msgWeight%22%3A%22Peso%22%7D%2C%22isScorm%22%3A0%2C%22textButtonScorm%22%3A%22Guardar%20la%20puntuaci%F3n%22%2C%22repeatActivity%22%3Atrue%2C%22weighted%22%3A100%7D</div><p class="exe-rubrics-authorship sr-av"><a href="http://cedec.intef.es/" target="_blank" class="author" rel="noopener">CEDEC</a>. <span class="title"><em>Rúbrica para evaluar una infografía</em></span> <span class="license">(<a href="https://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons CC-BY-SA">CC BY-SA</a>)</span></p><ul class="exe-rubrics-strings"><li class="rubric">Rúbrica</li><li class="activity">Actividad</li><li class="name">Nombre</li><li class="date">Fecha</li><li class="score">Puntuación</li><li class="notes">Notas</li><li class="download">Descargar</li><li class="msgDelete">¿Seguro que desea borrar todos los campos del formulario?</li><li class="reset">Reiniciar</li><li class="print">Imprimir</li><li class="apply">Aplicar</li><li class="newWindow">Ventana nueva</li><li class="msgEndGameScore">Completa la rúbrica antes de guardar tu puntuación.</li><li class="msgScoreScorm">La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.</li><li class="msgOnlySaveScore">¡Solo puede guardar la puntuación una vez!</li><li class="msgYouScore">Su puntuación</li><li class="msgOnlySaveAuto">Tu puntuación se guardará después de cada cambio. Solo puedes completarla una vez.</li><li class="msgSaveAuto">Tu puntuación se guardará automáticamente después de cada cambio.</li><li class="msgSeveralScore">Puede guardar la puntuación tantas veces como quiera</li><li class="msgYouLastScore">La última puntuación guardada es</li><li class="msgActityComply">Ya ha realizado esta actividad.</li><li class="msgPlaySeveralTimes">Puede realizar esta actividad cuantas veces quiera</li><li class="msgScore">Puntuación</li><li class="msgWeight">Peso</li></ul></div><div class="exe-rubrics-richtext-data sr-av"><span class="exe-rubrics-instructions-data">%3Cp%3EEsta%20es%20la%20r%FAbrica%20que%20se%20va%20a%20aplicar%20para%20la%20correcci%F3n%20del%20entregable%20de%20esta%20fase%3C/p%3E</span><span class="exe-rubrics-text-after-data"></span></div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
           </odeComponentsProperties>
@@ -173,8 +657,173 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-1778016856851-qdoj09nlw</odePageId>
-  <odeParentPageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odeParentPageId>
+  <odePageId>page-1779056422368-z48cx6xax</odePageId>
+  <odeParentPageId>page-mpa7klr9-avrvvp1m7</odeParentPageId>
+  <pageName>Fase 2: Desarrollo</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Fase 2: Desarrollo</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779056422368-z48cx6xax</odePageId>
+      <odeBlockId>block-1778020004004-ent02</odeBlockId>
+      <blockName>2. WebApp en un repositorio de GitHub</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056422368-z48cx6xax</odePageId>
+          <odeBlockId>block-1778020004004-ent02</odeBlockId>
+          <odeIdeviceId>idevice-1778020004005-ent02</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Qué es:</strong> el código fuente de vuestro proyecto, en el fork del repositorio de partida.</p>
+<p><strong>Debe incluir:</strong></p>
+<ul>
+<li>Código limpio, comentado y organizado en archivos coherentes.</li>
+<li>Historial de <strong>commits descriptivos</strong> (no vale "subo cambios" como mensaje único).</li>
+<li><strong>Ramas por sprint</strong> (al menos <code>sprint-1</code> y <code>sprint-2</code>) y <strong>pull requests</strong> internas hacia <code>main</code>.</li>
+<li>Un <strong><code>README.md</code></strong> con:
+<ul>
+<li>Descripción del proyecto.</li>
+<li>Instrucciones para ejecutarlo en local.</li>
+<li>Capturas de pantalla.</li>
+<li>Reparto de tareas entre los miembros del equipo.</li>
+<li><strong>Mención explícita</strong> al uso de IA (Claude, ChatGPT…) si la habéis usado: qué generó, cómo lo verificasteis, qué decisiones tomasteis vosotros.</li>
+</ul></li>
+<li>Opcionalmente, <strong>app desplegada en GitHub Pages</strong> (suma puntos para ampliación).</li>
+</ul>
+<p><strong>Formato de entrega:</strong> enlace público al repositorio.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004005-ent02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Qué es:</strong> el código fuente de vuestro proyecto, en el fork del repositorio de partida.</p>\n<p><strong>Debe incluir:</strong></p>\n<ul>\n<li>Código limpio, comentado y organizado en archivos coherentes.</li>\n<li>Historial de <strong>commits descriptivos</strong> (no vale \"subo cambios\" como mensaje único).</li>\n<li><strong>Ramas por sprint</strong> (al menos <code>sprint-1</code> y <code>sprint-2</code>) y <strong>pull requests</strong> internas hacia <code>main</code>.</li>\n<li>Un <strong><code>README.md</code></strong> con:\n<ul>\n<li>Descripción del proyecto.</li>\n<li>Instrucciones para ejecutarlo en local.</li>\n<li>Capturas de pantalla.</li>\n<li>Reparto de tareas entre los miembros del equipo.</li>\n<li><strong>Mención explícita</strong> al uso de IA (Claude, ChatGPT…) si la habéis usado: qué generó, cómo lo verificasteis, qué decisiones tomasteis vosotros.</li>\n</ul></li>\n<li>Opcionalmente, <strong>app desplegada en GitHub Pages</strong> (suma puntos para ampliación).</li>\n</ul>\n<p><strong>Formato de entrega:</strong> enlace público al repositorio.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779056778473-ltdy13mxs</odePageId>
+  <odeParentPageId>page-mpa7klr9-avrvvp1m7</odeParentPageId>
+  <pageName>Fase 3: Presentación</pageName>
+  <odeNavStructureOrder>8</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Fase 3: Presentación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779056778473-ltdy13mxs</odePageId>
+      <odeBlockId>block-1778020004006-ent03</odeBlockId>
+      <blockName>3. Vídeo demo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779056778473-ltdy13mxs</odePageId>
+          <odeBlockId>block-1778020004006-ent03</odeBlockId>
+          <odeIdeviceId>idevice-1778020004007-ent03</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p><strong>Qué es:</strong> un vídeo corto (<strong>2-3 minutos máximo</strong>) en el que enseñáis vuestra app funcionando.</p>
+<p><strong>Debe incluir:</strong></p>
+<ul>
+<li>Presentación breve del equipo y del proyecto.</li>
+<li>Demostración de la app en funcionamiento: las 6 cartas, el botón de regenerar, los estilos por tipo.</li>
+<li><strong>Aparición de un Pokémon shiny</strong> (podéis forzar la probabilidad solo para la grabación).</li>
+<li>Comentario rápido sobre alguna decisión técnica de la que estéis orgullosos.</li>
+</ul>
+<p><strong>Herramientas sugeridas:</strong> OBS Studio, Loom, QuickTime (Mac), o Xbox Game Bar (Windows).</p>
+<p><strong>Formato de entrega:</strong> vídeo subido a Drive o YouTube (no listado) y enlace en el README.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020004007-ent03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Qué es:</strong> un vídeo corto (<strong>2-3 minutos máximo</strong>) en el que enseñáis vuestra app funcionando.</p>\n<p><strong>Debe incluir:</strong></p>\n<ul>\n<li>Presentación breve del equipo y del proyecto.</li>\n<li>Demostración de la app en funcionamiento: las 6 cartas, el botón de regenerar, los estilos por tipo.</li>\n<li><strong>Aparición de un Pokémon shiny</strong> (podéis forzar la probabilidad solo para la grabación).</li>\n<li>Comentario rápido sobre alguna decisión técnica de la que estéis orgullosos.</li>\n</ul>\n<p><strong>Herramientas sugeridas:</strong> OBS Studio, Loom, QuickTime (Mac), o Xbox Game Bar (Windows).</p>\n<p><strong>Formato de entrega:</strong> vídeo subido a Drive o YouTube (no listado) y enlace en el README.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
+  <odeParentPageId>page-mpa7klqx-k2k2v3raq</odeParentPageId>
   <pageName>Scrum</pageName>
   <odeNavStructureOrder>2</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -182,24 +831,63 @@
       <key>titlePage</key>
       <value>Scrum</value>
     </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Scrum</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
       <odeBlockId>block-1778020001000-scrum01</odeBlockId>
       <blockName>¿Qué es Scrum?</blockName>
       <iconName></iconName>
-      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureOrder>0</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
           <odeBlockId>block-1778020001000-scrum01</odeBlockId>
           <odeIdeviceId>idevice-1778020001001-scrum01</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -210,26 +898,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001001-scrum01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Scrum</strong> es un marco de trabajo usado en la inmensa mayoría de las empresas tecnológicas para gestionar proyectos. La idea es sencilla pero potente: en lugar de planificar todo el proyecto al detalle al principio (lo cual nunca funciona en software, porque las cosas cambian), se trabaja en <strong>ciclos cortos llamados <em>sprints</em></strong>. En cada sprint, el equipo se compromete a entregar una versión funcional del producto, por pequeña que sea, y aprende del resultado para mejorar en el siguiente.</p>\n<p><strong>eduScrum</strong> es la adaptación de Scrum al aula. Vosotros os organizáis (el \"cómo\") y el profesor define los objetivos de aprendizaje y los criterios de aceptación (el \"qué\" y el \"cuándo está bien hecho\").</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
       <odeBlockId>block-1778020001002-scrum02</odeBlockId>
       <blockName>Roles en el equipo</blockName>
       <iconName></iconName>
-      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
           <odeBlockId>block-1778020001002-scrum02</odeBlockId>
           <odeIdeviceId>idevice-1778020001003-scrum02</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -252,26 +967,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001003-scrum02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Cada equipo está formado por <strong>3-4 personas</strong> y dentro del equipo se reparten estos roles:</p>\n<h4>Product Owner (el profesor)</h4>\n<p>Define <strong>qué hay que construir</strong> y los criterios de aceptación. No forma parte de vuestro equipo, pero está disponible en cada sesión para resolver dudas y revisar el progreso.</p>\n<h4>eduScrum Master (uno de vosotros, rota cada sprint)</h4>\n<p>Es la persona que vela por el proceso del equipo:</p>\n<ul>\n<li>Modera las reuniones (Daily, Planning, Review, Retrospectiva).</li>\n<li>Se asegura de que el tablero esté actualizado.</li>\n<li>Detecta si alguien está bloqueado y ayuda a desbloquearlo.</li>\n<li>Recuerda los plazos y la <em>Definition of Done</em>.</li>\n</ul>\n<p><strong>No es un jefe</strong>, es un facilitador. Y como rota, <strong>todos pasaréis por este rol al menos una vez</strong>.</p>\n<h4>Equipo de desarrollo (todos vosotros, incluido el Scrum Master)</h4>\n<p>Sois <strong>autoorganizados</strong> y <strong>multifuncionales</strong>: nadie tiene asignado \"tú haces solo HTML\" o \"tú solo CSS\". Decidís entre vosotros cómo repartir las tareas, qué herramientas usar y a qué ritmo trabajar.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
       <odeBlockId>block-1778020001004-scrum03</odeBlockId>
       <blockName>Eventos: las reuniones que tendréis</blockName>
       <iconName></iconName>
-      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
           <odeBlockId>block-1778020001004-scrum03</odeBlockId>
           <odeIdeviceId>idevice-1778020001005-scrum03</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -300,26 +1042,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001005-scrum03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4>Sprint Planning (al inicio de cada sprint, ~15-20 min)</h4>\n<p>El equipo elige del <strong>Product Backlog</strong> las historias de usuario que se compromete a entregar este sprint y las descompone en tareas concretas en el tablero.</p>\n<blockquote><p>Ejemplo: la historia <em>\"Como usuario quiero ver 6 cartas con su tipo correcto\"</em> se descompone en tareas como: \"crear la clase <code>Pokemon</code>\", \"implementar <code>fetchPokemon(id)</code>\", \"renderizar la plantilla HTML de la carta\", \"aplicar clase CSS según el tipo\".</p></blockquote>\n<h4>Daily (al inicio de cada sesión, ~5 min)</h4>\n<p>Cada miembro responde brevemente a tres preguntas:</p>\n<ol>\n<li>¿Qué hice en la sesión anterior?</li>\n<li>¿Qué voy a hacer hoy?</li>\n<li>¿Tengo algún bloqueo?</li>\n</ol>\n<p>Es <strong>breve y en pie</strong> (no es momento de resolver problemas, solo de detectarlos).</p>\n<h4>Sprint Review (al final del sprint, ~15 min)</h4>\n<p>Cada equipo <strong>enseña al resto de la clase la app funcionando</strong>. Solo se muestra lo que <strong>funciona de verdad</strong>, no lo que se ha intentado. Recibís feedback del profesor y de los compañeros.</p>\n<h4>Sprint Retrospective (~10 min, tras la review)</h4>\n<p>El equipo se reúne en privado y reflexiona sobre el propio proceso, no sobre el código:</p>\n<ul>\n<li>¿Qué hicimos bien y queremos seguir haciendo?</li>\n<li>¿Qué nos costó y queremos mejorar?</li>\n<li>¿Qué acción concreta vamos a probar el próximo sprint?</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+      <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
       <odeBlockId>block-1778020001006-scrum04</odeBlockId>
       <blockName>Artefactos: las herramientas que usaréis</blockName>
       <iconName></iconName>
-      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureOrder>3</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016856851-qdoj09nlw</odePageId>
+          <odePageId>page-mpa7klr1-rx4rxj9xn</odePageId>
           <odeBlockId>block-1778020001006-scrum04</odeBlockId>
           <odeIdeviceId>idevice-1778020001007-scrum04</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -351,6 +1120,18 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020001007-scrum04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<h4>Product Backlog</h4>\n<p>Lista priorizada de funcionalidades que debe tener la webapp. El profesor os la entrega como punto de partida, pero podéis proponer añadidos.</p>\n<h4>Sprint Backlog</h4>\n<p>Subconjunto del Product Backlog que vuestro equipo se compromete a completar en el sprint actual, ya descompuesto en tareas.</p>\n<h4>Tablero Kanban</h4>\n<p>Físico (en una pared del aula con post-its) y/o digital (en <strong>GitHub Projects</strong> o <strong>Trello</strong>). Tres columnas mínimas:</p>\n<pre><code>┌─── To Do ───┬─── Doing ───┬─── Done ───┐\n│             │             │            │\n│  Tarea X    │   Tarea Y   │  Tarea Z   │\n│  Tarea A    │             │  Tarea B   │\n│             │             │            │\n└─────────────┴─────────────┴────────────┘</code></pre>\n<p><strong>Regla de oro:</strong> una tarea solo está en \"Done\" si cumple la <em>Definition of Done</em>.</p>\n<h4>Definition of Done</h4>\n<p>Acuerdo de equipo sobre cuándo una tarea se considera \"terminada\". Por ejemplo:</p>\n<ul>\n<li>El código compila y se ejecuta sin errores.</li>\n<li>Está commiteado en la rama correspondiente.</li>\n<li>Se ha probado manualmente y funciona.</li>\n<li>Al menos otro miembro del equipo lo ha revisado.</li>\n<li>Está comentado/documentado si era necesario.</li>\n</ul>\n<p>Vosotros vais a definir vuestra propia DoD en el primer sprint.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
@@ -358,8 +1139,8 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-1778016755499-qpoyz34c1</odePageId>
-  <odeParentPageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odeParentPageId>
+  <odePageId>page-mpa7klr3-w70apveii</odePageId>
+  <odeParentPageId>page-mpa7klqx-k2k2v3raq</odeParentPageId>
   <pageName>Sesiones</pageName>
   <odeNavStructureOrder>3</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -367,29 +1148,112 @@
       <key>titlePage</key>
       <value>Sesiones</value>
     </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Sesiones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002000-fases00</odeBlockId>
       <blockName>Fases generales del proyecto</blockName>
       <iconName></iconName>
       <odePagStructureOrder>1</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002000-fases00</odeBlockId>
           <odeIdeviceId>idevice-1778020002001-fases00</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
           <htmlView><![CDATA[<div class="exe-text-template">
-<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>
+    <p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>
+<p><br /></p>
+<table border="1" style="width: 100%; border-color: #000000; border-style: solid; height: 283px;">
+<tbody>
+<tr style="height: 33px;">
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;"><strong>FASE 1</strong></td>
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;"><strong>FASE 2</strong></td>
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;"><strong>FASE 3</strong></td>
+</tr>
+<tr style="height: 33px;">
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000;"><strong>Análisis (Sesiones 1-2)</strong></td>
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000;"><strong>Desarrollo (Sesiones 3-7)</strong></td>
+<td style="width: 33.2905%; height: 33px; border: 1px solid #000000;"><strong>Presentación (Sesión 8)</strong></td>
+</tr>
+<tr style="height: 217px;">
+<td style="width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;">
+<ul>
+<li>Análisis y Documentación</li>
+<li>Diagramas UML</li>
+<li>Infografía</li>
+</ul>
+</td>
+<td style="width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;">
+<p><strong>Sprint 1:</strong></p>
+<ul>
+<li>HTML, CSS</li>
+<li>Estilos por tipos</li>
+</ul>
+<p><strong>Sprint 2:</strong></p>
+<ul>
+<li>Datos de PokeAPI</li>
+<li>Shiny<br /></li>
+</ul>
+</td>
+<td style="width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;">
+<ul>
+<li>Video demo</li>
+<li>Presentación</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br />Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica.</strong></p>
+<p><br /></p>
 <h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>
 <p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>
 <p><strong>Cómo trabajar esta fase:</strong></p>
@@ -400,50 +1264,69 @@
 <li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>
 </ol>
 <p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>
+<p><br /></p>
 <h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>
 <p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>
 <ul>
-<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, consumo de la PokéAPI, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos reales.</li>
-<li><strong>Sprint 2 — Producto final:</strong> estilos por tipo, lógica shiny, refinamiento visual y pruebas.</li>
+<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos hardcodeados, estilos por tipo.</li>
+<li><strong>Sprint 2 — Producto final: </strong>datos desde la PokéAPI, , lógica shiny, refinamiento visual y pruebas.</li>
 </ul>
 <p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>
+<p><br /></p>
 <h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>
 <p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>
-<pre><code>┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│      FASE 1         │ →  │       FASE 2        │ →  │       FASE 3        │
-│  Análisis &amp; UML     │    │     Desarrollo      │    │  Presentación &amp;     │
-│  Documentación      │    │  (Sprint 1 + 2)     │    │       Vídeo         │
-│   Infografía        │    │                     │    │                     │
-├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
-│  Sesiones 1-3       │    │   Sesiones 4-7      │    │     Sesión 8        │
-├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤
-│  Pensar             │    │  Construir          │    │  Comunicar          │
-└─────────────────────┘    └─────────────────────┘    └─────────────────────┘</code></pre>
-<p>Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica</strong>.</p>
+<p><br /></p>
 </div>]]></htmlView>
-          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002001-fases00","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>\n<h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>\n<p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>\n<p><strong>Cómo trabajar esta fase:</strong></p>\n<ol>\n<li>Primero individualmente, después en equipo.</li>\n<li>Borrador a mano antes que a herramienta (lápiz/papel o pizarra).</li>\n<li>Cuando el modelo esté claro, lo pasáis a digital (draw.io, PlantUML, Mermaid, StarUML…).</li>\n<li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>\n</ol>\n<p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>\n<h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>\n<p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>\n<ul>\n<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, consumo de la PokéAPI, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos reales.</li>\n<li><strong>Sprint 2 — Producto final:</strong> estilos por tipo, lógica shiny, refinamiento visual y pruebas.</li>\n</ul>\n<p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>\n<h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>\n<p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>\n<pre><code>┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐\n│      FASE 1         │ →  │       FASE 2        │ →  │       FASE 3        │\n│  Análisis &amp; UML     │    │     Desarrollo      │    │  Presentación &amp;     │\n│  Documentación      │    │  (Sprint 1 + 2)     │    │       Vídeo         │\n│   Infografía        │    │                     │    │                     │\n├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤\n│  Sesiones 1-3       │    │   Sesiones 4-7      │    │     Sesión 8        │\n├─────────────────────┤    ├─────────────────────┤    ├─────────────────────┤\n│  Pensar             │    │  Construir          │    │  Comunicar          │\n└─────────────────────┘    └─────────────────────┘    └─────────────────────┘</code></pre>\n<p>Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica</strong>.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002001-fases00","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El proyecto se desarrolla en <strong>tres fases consecutivas</strong>, cada una con un objetivo claro y unos entregables propios. Pasar de una fase a la siguiente solo tiene sentido cuando la anterior está cerrada: si os ponéis a programar sin haber pensado, vais a programar mal; y si presentáis sin haber acabado de programar, no tendréis nada que enseñar.</p>\n<p><br /></p>\n<table border=\"1\" style=\"width: 100%; border-color: #000000; border-style: solid; height: 283px;\">\n<tbody>\n<tr style=\"height: 33px;\">\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;\"><strong>FASE 1</strong></td>\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;\"><strong>FASE 2</strong></td>\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000; background-color: #95a5a6;\"><strong>FASE 3</strong></td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000;\"><strong>Análisis (Sesiones 1-2)</strong></td>\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000;\"><strong>Desarrollo (Sesiones 3-7)</strong></td>\n<td style=\"width: 33.2905%; height: 33px; border: 1px solid #000000;\"><strong>Presentación (Sesión 8)</strong></td>\n</tr>\n<tr style=\"height: 217px;\">\n<td style=\"width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;\">\n<ul>\n<li>Análisis y Documentación</li>\n<li>Diagramas UML</li>\n<li>Infografía</li>\n</ul>\n</td>\n<td style=\"width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;\">\n<p><strong>Sprint 1:</strong></p>\n<ul>\n<li>HTML, CSS</li>\n<li>Estilos por tipos</li>\n</ul>\n<p><strong>Sprint 2:</strong></p>\n<ul>\n<li>Datos de PokeAPI</li>\n<li>Shiny<br /></li>\n</ul>\n</td>\n<td style=\"width: 33.2905%; height: 217px; vertical-align: top; border: 1px solid #000000;\">\n<ul>\n<li>Video demo</li>\n<li>Presentación</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p><br />Las tres fases reproducen el ciclo real de cualquier proyecto profesional: <strong>piensa, construye, comunica.</strong></p>\n<p><br /></p>\n<h4>Fase 1 — Análisis, modelado y documentación (sesiones 1-3, Sprint 0)</h4>\n<p>Entender el problema antes de tocar código y dejar constancia de cómo lo habéis modelado. Producís el <strong>diagrama de clases del dominio</strong>, el <strong>diagrama de la arquitectura</strong> de la webapp, las <strong>decisiones de diseño</strong> documentadas y la <strong>infografía interactiva</strong>.</p>\n<p><strong>Cómo trabajar esta fase:</strong></p>\n<ol>\n<li>Primero individualmente, después en equipo.</li>\n<li>Borrador a mano antes que a herramienta (lápiz/papel o pizarra).</li>\n<li>Cuando el modelo esté claro, lo pasáis a digital (draw.io, PlantUML, Mermaid, StarUML…).</li>\n<li>Solo cuando el equipo está de acuerdo con el modelo, se construye la infografía.</li>\n</ol>\n<p><strong>Si esta fase no está cerrada, no se empieza la siguiente.</strong> Programar sin diagrama es como construir una casa sin planos.</p>\n<p><br /></p>\n<h4>Fase 2 — Desarrollo (sesiones 4-7, Sprint 1 y Sprint 2)</h4>\n<p>Convertir el modelo en código funcional, en dos sprints incrementales:</p>\n<ul>\n<li><strong>Sprint 1 — Funcional mínimo:</strong> maquetado HTML/CSS, clase <code>Pokemon</code> implementada, las 6 cartas se muestran con datos hardcodeados, estilos por tipo.</li>\n<li><strong>Sprint 2 — Producto final: </strong>datos desde la PokéAPI, , lógica shiny, refinamiento visual y pruebas.</li>\n</ul>\n<p>Una sola fuente de verdad: el tablero Kanban. Commits frecuentes y descriptivos, ramas por sprint, <em>pull requests</em> internas y revisión entre compañeros. Si el diagrama deja de encajar con la realidad, <strong>actualizadlo</strong>: la documentación se mantiene viva.</p>\n<p><br /></p>\n<h4>Fase 3 — Presentación y vídeo (sesión 8)</h4>\n<p>Construir software es solo la mitad del trabajo de un <em>product engineer</em>. La otra mitad es <strong>saber explicarlo</strong>. Producís el <strong>vídeo demo</strong> (2-3 min), el <strong>README.md cerrado</strong> y la <strong>entrega formal</strong> en el aula virtual.</p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002002-ses01</odeBlockId>
       <blockName>Sesión 1 — Kick-off</blockName>
       <iconName></iconName>
       <odePagStructureOrder>2</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002002-ses01</odeBlockId>
           <odeIdeviceId>idevice-1778020002003-ses01</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -474,26 +1357,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002003-ses01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> arranque del proyecto.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Entender el reto y los entregables.</li>\n<li>Formar los equipos.</li>\n<li>Asignar el primer eduScrum Master de cada equipo.</li>\n<li>Explorar la PokéAPI.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Presentación del proyecto y resolución de dudas iniciales.</li>\n<li>Formación de equipos y reparto del primer rol de eduScrum Master.</li>\n<li>Exploración guiada de la PokéAPI: probar <code>https://pokeapi.co/api/v2/pokemon/25</code> (Pikachu) en el navegador, identificar los datos que vamos a necesitar.</li>\n<li>Lectura conjunta del Product Backlog inicial.</li>\n<li>Acordar la <strong>Definition of Done</strong> del equipo.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Equipos formados con roles claros.</li>\n<li>Tablero Kanban inicial montado (físico o digital).</li>\n<li>DoD escrita y visible.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002004-ses02</odeBlockId>
       <blockName>Sesión 2 — Análisis (I): modelado del dominio</blockName>
       <iconName></iconName>
       <odePagStructureOrder>3</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002004-ses02</odeBlockId>
           <odeIdeviceId>idevice-1778020002005-ses02</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -516,26 +1426,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002005-ses02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Modelar el dominio del problema (los Pokémon).</li>\n<li>Practicar la notación UML de diagramas de clases.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily inicial.</li>\n<li><strong>Trabajo individual primero</strong> (15 min): cada uno hace su propio borrador a lápiz/papel del diagrama de clases. ¿Qué es una <code>Pokemon</code>? ¿Qué atributos tiene? ¿Qué métodos? ¿Hay otras clases necesarias (<code>Type</code>, <code>Stat</code>)?</li>\n<li><strong>Puesta en común en equipo</strong> (20 min): se comparan los borradores, se discuten las decisiones (¿<code>Type</code> es atributo o clase aparte? ¿qué relación tiene con <code>Pokemon</code>?).</li>\n<li><strong>Diagrama unificado del equipo</strong> (15 min) en una herramienta digital (draw.io, PlantUML, Mermaid o StarUML).</li>\n</ol>\n<p><strong>Al salir de clase:</strong> cada equipo tiene un borrador de diagrama de clases del dominio.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002006-ses03</odeBlockId>
       <blockName>Sesión 3 — Análisis (II): arquitectura y planificación</blockName>
       <iconName></iconName>
       <odePagStructureOrder>4</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002006-ses03</odeBlockId>
           <odeIdeviceId>idevice-1778020002007-ses03</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -563,26 +1500,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002007-ses03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 0 — Análisis.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Modelar la arquitectura de la webapp (no solo el dominio).</li>\n<li>Planificar el Sprint 1.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li><strong>Diagrama de la webapp</strong>: además de <code>Pokemon</code>, ¿qué otras clases o módulos vais a necesitar? Probablemente algo tipo <code>PokemonService</code> (que habla con la API), <code>CardRenderer</code> (que pinta la carta) y un controlador que orquesta todo. Dibujadlo.</li>\n<li><strong>Sprint Planning del Sprint 1</strong>: revisad el Product Backlog y elegid qué historias entran en el primer sprint. Descomponedlas en tareas y colocadlas en el tablero.</li>\n<li><strong>Fork del repositorio de partida</strong>: cada equipo crea su fork en GitHub y todos los miembros se añaden como colaboradores.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Diagrama UML completo (dominio + arquitectura).</li>\n<li>Sprint Backlog del Sprint 1 cargado en el tablero.</li>\n<li>Repositorio del equipo creado en GitHub.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002008-ses04</odeBlockId>
       <blockName>Sesión 4 — Sprint 1 (I): maquetado base</blockName>
       <iconName></iconName>
       <odePagStructureOrder>5</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002008-ses04</odeBlockId>
           <odeIdeviceId>idevice-1778020002009-ses04</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -613,26 +1577,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002009-ses04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Construir la estructura HTML de la carta.</li>\n<li>Aplicar estilos CSS base.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo. Posibles tareas:\n<ul>\n<li>Maquetar el HTML semántico de <strong>una</strong> carta con datos <em>hardcodeados</em> (todavía sin API).</li>\n<li>Aplicar CSS base: tipografía, espaciado, layout (Flexbox o Grid).</li>\n<li>Crear la estructura para mostrar 6 cartas en una rejilla.</li>\n</ul></li>\n<li>Cambio de rol de eduScrum Master a mitad del sprint (opcional, según equipo).</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>Plantilla de carta visible en el navegador (aunque sin datos reales).</li>\n<li>Commits con el progreso en la rama del sprint.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002010-ses05</odeBlockId>
       <blockName>Sesión 5 — Sprint 1 (II): consumo de la API</blockName>
       <iconName></iconName>
       <odePagStructureOrder>6</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002010-ses05</odeBlockId>
           <odeIdeviceId>idevice-1778020002011-ses05</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -666,26 +1657,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002011-ses05","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 1 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Conectar la app a la PokéAPI.</li>\n<li>Implementar la clase <code>Pokemon</code>.</li>\n<li>Renderizar 6 cartas con datos reales.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Implementar la función que hace <code>fetch</code> a la API (<code>async/await</code>, <code>try/catch</code>).</li>\n<li>Crear la clase <code>Pokemon</code> con su constructor y métodos.</li>\n<li>Hacer 6 peticiones en paralelo con <code>Promise.all</code>.</li>\n<li>Renderizar las 6 cartas con los datos reales.</li>\n</ul></li>\n<li><strong>Sprint Review del Sprint 1</strong> (últimos 15 min): cada equipo enseña a la clase su app funcionando.</li>\n<li><strong>Sprint Retrospective</strong> (10 min): qué ha ido bien, qué mejorar.</li>\n</ol>\n<p><strong>Al salir de clase:</strong></p>\n<ul>\n<li>App funcional v1: muestra 6 cartas reales con datos de la API.</li>\n<li>Tablero limpio para el siguiente sprint.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002012-ses06</odeBlockId>
       <blockName>Sesión 6 — Sprint 2 (I): estilos por tipo</blockName>
       <iconName></iconName>
       <odePagStructureOrder>7</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002012-ses06</odeBlockId>
           <odeIdeviceId>idevice-1778020002013-ses06</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -712,26 +1730,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002013-ses06","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Aplicar estilos diferenciados según el tipo de Pokémon.</li>\n<li>Usar CSS variables y atributos <code>data-*</code>.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li><strong>Sprint Planning del Sprint 2</strong>: nuevas historias en el tablero.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Definir la paleta de colores y aspecto visual para cada tipo (fuego, agua, planta, eléctrico…).</li>\n<li>Implementar la lógica para aplicar la clase CSS correcta según el tipo del Pokémon (atributos <code>data-type</code>).</li>\n<li>Considerar Pokémon con dos tipos: ¿cuál manda? ¿se mezclan?</li>\n</ul></li>\n</ol>\n<p><strong>Al salir de clase:</strong> cartas con estilos distintos según el tipo del Pokémon.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002014-ses07</odeBlockId>
       <blockName>Sesión 7 — Sprint 2 (II): lógica shiny y refinamiento</blockName>
       <iconName></iconName>
       <odePagStructureOrder>8</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002014-ses07</odeBlockId>
           <odeIdeviceId>idevice-1778020002015-ses07</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -760,26 +1805,53 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002015-ses07","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> Sprint 2 — Desarrollo.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Implementar la mecánica shiny.</li>\n<li>Pulir detalles y testear.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily.</li>\n<li>Trabajo en equipo:\n<ul>\n<li>Implementar la probabilidad shiny (~1/256). ¿Cómo lo modelamos? ¿Es un método de la clase <code>Pokemon</code>?</li>\n<li>Diseñar el aspecto visual de una carta shiny (sprite alternativo, brillo, marca dorada…).</li>\n<li>Probar manualmente: forzar la aparición de un shiny para verificar que funciona.</li>\n<li>Documentar las pruebas realizadas en un checklist.</li>\n</ul></li>\n<li><strong>Sprint Review del Sprint 2</strong> (últimos 15 min).</li>\n<li><strong>Sprint Retrospective</strong> (10 min).</li>\n</ol>\n<p><strong>Al salir de clase:</strong> app funcional v2 completa, con estilos por tipo y lógica shiny.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+      <odePageId>page-mpa7klr3-w70apveii</odePageId>
       <odeBlockId>block-1778020002016-ses08</odeBlockId>
       <blockName>Sesión 8 — Cierre y entrega</blockName>
       <iconName></iconName>
       <odePagStructureOrder>9</odePagStructureOrder>
       <odePagStructureProperties>
-        <odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty>
-        <odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty>
-        <odePagStructureProperty><key>cssClass</key><value></value></odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016755499-qpoyz34c1</odePageId>
+          <odePageId>page-mpa7klr3-w70apveii</odePageId>
           <odeBlockId>block-1778020002016-ses08</odeBlockId>
           <odeIdeviceId>idevice-1778020002017-ses08</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -805,6 +1877,18 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020002017-ses08","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Fase:</strong> cierre del proyecto.</p>\n<p><strong>Objetivos:</strong></p>\n<ul>\n<li>Grabar el vídeo demo.</li>\n<li>Cerrar la documentación.</li>\n<li>Hacer la entrega final.</li>\n<li>Reflexionar sobre el proyecto en su conjunto.</li>\n</ul>\n<p><strong>Qué vamos a hacer:</strong></p>\n<ol>\n<li>Daily breve.</li>\n<li><strong>Grabación del vídeo demo</strong> (2-3 min): cada equipo graba la presentación de su app.</li>\n<li><strong>Cierre del README.md</strong>: descripción del proyecto, instrucciones de uso, créditos del equipo, mención al uso de IA si lo ha habido.</li>\n<li><strong>Entrega final</strong> en el aula virtual: enlace al repo, enlace a la infografía, enlace al vídeo.</li>\n<li><strong>Retrospectiva final del proyecto</strong> (15 min): no del sprint, del proyecto entero.</li>\n</ol>\n<p><strong>Al salir de clase:</strong> proyecto entregado y cerrado.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
@@ -812,36 +1896,480 @@
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-1778016820892-9iugteb1o</odePageId>
-  <odeParentPageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odeParentPageId>
+  <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+  <odeParentPageId>page-mpa7klqx-k2k2v3raq</odeParentPageId>
   <pageName>Recursos</pageName>
-  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
   <odeNavStructureProperties>
     <odeNavStructureProperty>
       <key>titlePage</key>
       <value>Recursos</value>
     </odeNavStructureProperty>
-  </odeNavStructureProperties>
-  <odePagStructures>
-  </odePagStructures>
-</odeNavStructure>
-<odeNavStructure>
-  <odePageId>page-1778016768394-p6d49ivdh</odePageId>
-  <odeParentPageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odeParentPageId>
-  <pageName>Entregables</pageName>
-  <odeNavStructureOrder>6</odeNavStructureOrder>
-  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
     <odeNavStructureProperty>
       <key>titlePage</key>
-      <value>Entregables</value>
+      <value>Recursos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
     </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003000-rec01</odeBlockId>
+      <blockName>PokéAPI</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003000-rec01</odeBlockId>
+          <odeIdeviceId>idevice-1778020003001-rec01</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>API pública y gratuita con información de todos los Pokémon existentes. Es la fuente de datos en tiempo real de la webapp.</p>
+<ul>
+<li>Web oficial: <a href="https://pokeapi.co" target="_blank" rel="noopener">https://pokeapi.co</a></li>
+<li>Endpoint de ejemplo (Pikachu): <a href="https://pokeapi.co/api/v2/pokemon/25" target="_blank" rel="noopener">https://pokeapi.co/api/v2/pokemon/25</a></li>
+</ul>
+<p>Probadla directamente en el navegador para identificar los datos que vais a necesitar (nombre, número de la Pokédex, tipos, sprites normales y shiny, estadísticas, habilidades).</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003001-rec01","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>API pública y gratuita con información de todos los Pokémon existentes. Es la fuente de datos en tiempo real de la webapp.</p>\n<ul>\n<li>Web oficial: <a href=\"https://pokeapi.co\" target=\"_blank\" rel=\"noopener\">https://pokeapi.co</a></li>\n<li>Endpoint de ejemplo (Pikachu): <a href=\"https://pokeapi.co/api/v2/pokemon/25\" target=\"_blank\" rel=\"noopener\">https://pokeapi.co/api/v2/pokemon/25</a></li>\n</ul>\n<p>Probadla directamente en el navegador para identificar los datos que vais a necesitar (nombre, número de la Pokédex, tipos, sprites normales y shiny, estadísticas, habilidades).</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003002-rec02</odeBlockId>
+      <blockName>Repositorio base del proyecto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003002-rec02</odeBlockId>
+          <odeIdeviceId>idevice-1778020003003-rec02</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>No empezáis de cero. El profesor os entrega un repositorio base con la estructura del proyecto, algunos archivos preparados y la configuración mínima.</p>
+<ul>
+<li>Repositorio: <a href="https://github.com/rsvives/pokecartas" target="_blank" rel="noopener">github.com/rsvives/pokecartas</a></li>
+</ul>
+<p>Vuestro trabajo es <strong>forkearlo</strong>, completarlo y hacerlo vuestro. Todos los miembros del equipo deben añadirse como colaboradores.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003003-rec02","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>No empezáis de cero. El profesor os entrega un repositorio base con la estructura del proyecto, algunos archivos preparados y la configuración mínima.</p>\n<ul>\n<li>Repositorio: <a href=\"https://github.com/rsvives/pokecartas\" target=\"_blank\" rel=\"noopener\">github.com/rsvives/pokecartas</a></li>\n</ul>\n<p>Vuestro trabajo es <strong>forkearlo</strong>, completarlo y hacerlo vuestro. Todos los miembros del equipo deben añadirse como colaboradores.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003004-rec03</odeBlockId>
+      <blockName>Herramientas para diagramas UML</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003004-rec03</odeBlockId>
+          <odeIdeviceId>idevice-1778020003005-rec03</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Una vez tengáis claro el modelo a lápiz/papel, lo pasáis a digital con cualquiera de estas herramientas:</p>
+<ul>
+<li><a href="https://app.diagrams.net/" target="_blank" rel="noopener">draw.io (diagrams.net)</a> — editor visual de diagramas en el navegador.</li>
+<li><a href="https://plantuml.com/" target="_blank" rel="noopener">PlantUML</a> — generación de diagramas a partir de código.</li>
+<li><a href="https://mermaid.js.org/" target="_blank" rel="noopener">Mermaid</a> — diagramas en Markdown (compatibles con GitHub).</li>
+<li><a href="https://staruml.io/" target="_blank" rel="noopener">StarUML</a> — herramienta de modelado UML clásica.</li>
+</ul>
+<p>Recordad: <strong>borrador a mano antes que a herramienta</strong>. Es más rápido para iterar y discutir.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003005-rec03","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Una vez tengáis claro el modelo a lápiz/papel, lo pasáis a digital con cualquiera de estas herramientas:</p>\n<ul>\n<li><a href=\"https://app.diagrams.net/\" target=\"_blank\" rel=\"noopener\">draw.io (diagrams.net)</a> — editor visual de diagramas en el navegador.</li>\n<li><a href=\"https://plantuml.com/\" target=\"_blank\" rel=\"noopener\">PlantUML</a> — generación de diagramas a partir de código.</li>\n<li><a href=\"https://mermaid.js.org/\" target=\"_blank\" rel=\"noopener\">Mermaid</a> — diagramas en Markdown (compatibles con GitHub).</li>\n<li><a href=\"https://staruml.io/\" target=\"_blank\" rel=\"noopener\">StarUML</a> — herramienta de modelado UML clásica.</li>\n</ul>\n<p>Recordad: <strong>borrador a mano antes que a herramienta</strong>. Es más rápido para iterar y discutir.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003006-rec04</odeBlockId>
+      <blockName>Tablero Kanban (gestión del sprint)</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>4</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003006-rec04</odeBlockId>
+          <odeIdeviceId>idevice-1778020003007-rec04</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Una sola fuente de verdad para las tareas: el tablero. Si una tarea no está en el tablero, no existe.</p>
+<ul>
+<li><a href="https://github.com/features/issues" target="_blank" rel="noopener">GitHub Projects</a> — tablero integrado con el repositorio.</li>
+<li><a href="https://trello.com/" target="_blank" rel="noopener">Trello</a> — tablero Kanban sencillo y visual.</li>
+<li>Versión física: pared del aula con post-its.</li>
+</ul>
+<p>Tres columnas mínimas: <strong>To Do · Doing · Done</strong>. Una tarea solo está en "Done" si cumple la <em>Definition of Done</em>.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003007-rec04","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Una sola fuente de verdad para las tareas: el tablero. Si una tarea no está en el tablero, no existe.</p>\n<ul>\n<li><a href=\"https://github.com/features/issues\" target=\"_blank\" rel=\"noopener\">GitHub Projects</a> — tablero integrado con el repositorio.</li>\n<li><a href=\"https://trello.com/\" target=\"_blank\" rel=\"noopener\">Trello</a> — tablero Kanban sencillo y visual.</li>\n<li>Versión física: pared del aula con post-its.</li>\n</ul>\n<p>Tres columnas mínimas: <strong>To Do · Doing · Done</strong>. Una tarea solo está en \"Done\" si cumple la <em>Definition of Done</em>.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003008-rec05</odeBlockId>
+      <blockName>Git, GitHub y entorno de desarrollo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>5</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003008-rec05</odeBlockId>
+          <odeIdeviceId>idevice-1778020003009-rec05</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Vais a usar Git y GitHub <strong>en serio</strong>: ramas, commits descriptivos, pull requests internas y revisión entre compañeros.</p>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> — sistema de control de versiones.</li>
+<li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> — alojamiento del repositorio del equipo.</li>
+<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a> — IDE recomendado, con depurador integrado.</li>
+</ul>
+<p>Convenciones del proyecto: <strong>una rama por sprint</strong> (al menos <code>sprint-1</code> y <code>sprint-2</code>) y pull requests hacia <code>main</code>. Mejor diez commits pequeños y claros que uno enorme con todo.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003009-rec05","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Vais a usar Git y GitHub <strong>en serio</strong>: ramas, commits descriptivos, pull requests internas y revisión entre compañeros.</p>\n<ul>\n<li><a href=\"https://git-scm.com/\" target=\"_blank\" rel=\"noopener\">Git</a> — sistema de control de versiones.</li>\n<li><a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a> — alojamiento del repositorio del equipo.</li>\n<li><a href=\"https://code.visualstudio.com/\" target=\"_blank\" rel=\"noopener\">Visual Studio Code</a> — IDE recomendado, con depurador integrado.</li>\n</ul>\n<p>Convenciones del proyecto: <strong>una rama por sprint</strong> (al menos <code>sprint-1</code> y <code>sprint-2</code>) y pull requests hacia <code>main</code>. Mejor diez commits pequeños y claros que uno enorme con todo.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003010-rec06</odeBlockId>
+      <blockName>Herramientas para la infografía</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>6</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003010-rec06</odeBlockId>
+          <odeIdeviceId>idevice-1778020003011-rec06</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>La infografía interactiva es el formato de presentación de la fase de análisis. Herramientas sugeridas:</p>
+<ul>
+<li><a href="https://genially.com/" target="_blank" rel="noopener">Genially</a> — infografías interactivas con tooltips, animaciones y elementos clicables.</li>
+<li><a href="https://www.canva.com/" target="_blank" rel="noopener">Canva</a> — diseño gráfico para infografías estáticas.</li>
+<li>HTML estático con tooltips, si os animáis a maquetarlo a mano.</li>
+</ul>
+<p>El formato de entrega es un <strong>enlace público</strong> a la infografía.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003011-rec06","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>La infografía interactiva es el formato de presentación de la fase de análisis. Herramientas sugeridas:</p>\n<ul>\n<li><a href=\"https://genially.com/\" target=\"_blank\" rel=\"noopener\">Genially</a> — infografías interactivas con tooltips, animaciones y elementos clicables.</li>\n<li><a href=\"https://www.canva.com/\" target=\"_blank\" rel=\"noopener\">Canva</a> — diseño gráfico para infografías estáticas.</li>\n<li>HTML estático con tooltips, si os animáis a maquetarlo a mano.</li>\n</ul>\n<p>El formato de entrega es un <strong>enlace público</strong> a la infografía.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+      <odeBlockId>block-1778020003012-rec07</odeBlockId>
+      <blockName>Herramientas para grabar el vídeo demo</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>7</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mpa7klr5-ruxijl7xe</odePageId>
+          <odeBlockId>block-1778020003012-rec07</odeBlockId>
+          <odeIdeviceId>idevice-1778020003013-rec07</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+<p>Vídeo de 2-3 minutos máximo, con audio claro y demostración de la app funcionando. Mejor un vídeo claro y honesto que uno sobre-producido.</p>
+<ul>
+<li><a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio</a> — multiplataforma, software libre.</li>
+<li><a href="https://www.loom.com/" target="_blank" rel="noopener">Loom</a> — grabación rápida desde el navegador.</li>
+<li><strong>QuickTime Player</strong> (macOS) — grabación de pantalla nativa.</li>
+<li><strong>Xbox Game Bar</strong> (Windows) — grabación nativa con <code>Win + G</code>.</li>
+</ul>
+<p>Subidlo a Drive o YouTube (no listado) y enlazadlo en el README.</p>
+<p><strong>Truco para la grabación:</strong> ajustad temporalmente la probabilidad shiny al 100% para que aparezca seguro durante la demo. Acordaos de revertir el cambio antes de la entrega.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1778020003013-rec07","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Vídeo de 2-3 minutos máximo, con audio claro y demostración de la app funcionando. Mejor un vídeo claro y honesto que uno sobre-producido.</p>\n<ul>\n<li><a href=\"https://obsproject.com/\" target=\"_blank\" rel=\"noopener\">OBS Studio</a> — multiplataforma, software libre.</li>\n<li><a href=\"https://www.loom.com/\" target=\"_blank\" rel=\"noopener\">Loom</a> — grabación rápida desde el navegador.</li>\n<li><strong>QuickTime Player</strong> (macOS) — grabación de pantalla nativa.</li>\n<li><strong>Xbox Game Bar</strong> (Windows) — grabación nativa con <code>Win + G</code>.</li>\n</ul>\n<p>Subidlo a Drive o YouTube (no listado) y enlazadlo en el README.</p>\n<p><strong>Truco para la grabación:</strong> ajustad temporalmente la probabilidad shiny al 100% para que aparezca seguro durante la demo. Acordaos de revertir el cambio antes de la entrega.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
   </odePagStructures>
 </odeNavStructure>
 <odeNavStructure>
-  <odePageId>page-1778016794404-6pb8n2wo6</odePageId>
-  <odeParentPageId>ef837a08-fa35-4b6a-8191-28b0c2fcc111</odeParentPageId>
+  <odePageId>page-mpa7klrb-6y6vz4uhn</odePageId>
+  <odeParentPageId>page-mpa7klqx-k2k2v3raq</odeParentPageId>
   <pageName>Atribución y Descarga</pageName>
   <odeNavStructureOrder>8</odeNavStructureOrder>
   <odeNavStructureProperties>
@@ -849,10 +2377,34 @@
       <key>titlePage</key>
       <value>Atribución y Descarga</value>
     </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Atribución y Descarga</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
   </odeNavStructureProperties>
   <odePagStructures>
     <odePagStructure>
-      <odePageId>page-1778016794404-6pb8n2wo6</odePageId>
+      <odePageId>page-mpa7klrb-6y6vz4uhn</odePageId>
       <odeBlockId>block-1778017649634-3rftq638i</odeBlockId>
       <blockName>Atribución</blockName>
       <iconName></iconName>
@@ -881,7 +2433,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016794404-6pb8n2wo6</odePageId>
+          <odePageId>page-mpa7klrb-6y6vz4uhn</odePageId>
           <odeBlockId>block-1778017649634-3rftq638i</odeBlockId>
           <odeIdeviceId>idevice-1778017649633-j3xc888jp</odeIdeviceId>
           <odeIdeviceTypeName>text</odeIdeviceTypeName>
@@ -898,12 +2450,24 @@
           <jsonProperties><![CDATA[{"ideviceId":"idevice-1778017649633-j3xc888jp","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Esta guía docente y los materiales asociados a la actividad \"Cartas Pokémon\" constituyen un Recurso Educativo Abierto (REA) elaborado por Rodrigo Serrán (Github: <a href=\"https://github.com/rsvives\" title=\"\">@rsvives</a>), profesor del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) y Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) en el CIFP La Laboral, Asturias.</p>\n<p>La obra se publica bajo licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).</p>\n<p>Esto significa que cualquier persona es libre de:</p>\n<p><strong>Compartir —</strong> copiar y redistribuir el material en cualquier medio o formato.</p>\n<p><strong>Adaptar —</strong> remezclar, transformar y construir a partir del material para cualquier finalidad, incluso comercial.<br /></p>\n<p>Bajo las siguientes condiciones:</p>\n<p><strong>Reconocimiento (BY) — </strong>debe darse el crédito de manera adecuada, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerse de cualquier manera razonable, pero no de forma que sugiera que el autor respalda al usuario o el uso que hace de la obra.</p>\n<p><strong>CompartirIgual (SA) — </strong>si se remezcla, transforma o crea a partir del material, las contribuciones deben distribuirse bajo la misma licencia que el original.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
     </odePagStructure>
     <odePagStructure>
-      <odePageId>page-1778016794404-6pb8n2wo6</odePageId>
+      <odePageId>page-mpa7klrb-6y6vz4uhn</odePageId>
       <odeBlockId>block-1778017749432-ngrq1qmmb</odeBlockId>
       <blockName>Descargar el archivo fuente</blockName>
       <iconName></iconName>
@@ -932,7 +2496,7 @@
       </odePagStructureProperties>
       <odeComponents>
         <odeComponent>
-          <odePageId>page-1778016794404-6pb8n2wo6</odePageId>
+          <odePageId>page-mpa7klrb-6y6vz4uhn</odePageId>
           <odeBlockId>block-1778017749432-ngrq1qmmb</odeBlockId>
           <odeIdeviceId>idevice-1778017749431-m6wolvscr</odeIdeviceId>
           <odeIdeviceTypeName>download-source-file</odeIdeviceTypeName>
@@ -960,6 +2524,18 @@
           <jsonProperties></jsonProperties>
           <odeComponentsOrder>0</odeComponentsOrder>
           <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
           </odeComponentsProperties>
         </odeComponent>
       </odeComponents>
